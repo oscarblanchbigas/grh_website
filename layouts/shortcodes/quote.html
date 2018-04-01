@@ -1,0 +1,14 @@
+<!-- Quote-->
+{{ $color := (index ($.Page.Params.colors) 1) }}
+{{ $hunter := $.Page.Params.hunter}}
+{{ $image_path :=  printf "/img/avatarhex_%s.png" $hunter }}
+<section class = "quote {{ $color }}  noSwipe">
+  <div class = "container-fluid">
+    <div class="row">
+      <div class="col-md-1" ></div>
+      {{ with .Get "text"}}<div class="col-md-7 text-right "><p>{{.}}</p></div>{{end}}
+      <div class="col-md-3"> <img src="{{$image_path}}"  width="150" > </div>
+    </div>
+  </div>
+</section>
+<!-- /Quote-->

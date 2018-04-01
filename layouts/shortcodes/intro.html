@@ -1,0 +1,18 @@
+<!--Intro Cazador-->
+{{ $hunter := $.Page.Params.hunter}}
+{{ $image_path :=  printf "/img/avatar_%s.png" $hunter }}
+<section class ="intro_cazador noSwipe">
+  <div class = "container-fluid">
+    <div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-7 text-left">
+        {{ with .Get "text"}}<p>{{.}}</p>{{end}}
+      </div>
+      <div class="col-md-3 text-center">
+        <img src="{{$image_path}}"  width="200">
+      </div>
+      <div class="col-md-1 text-right"></div>
+    </div>
+  </div>
+</section>
+<!--/Intro Cazador-->
