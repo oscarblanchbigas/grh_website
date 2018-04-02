@@ -9,18 +9,8 @@
 {{ end }}
 
 {{ define "right"}}
-
-  {{ $right_path :=  printf "**.%s.md" .Lang }}
+  {{ $right_path :=  printf "right.%s.md" .Lang }}
   {{ range .Resources.Match $right_path }}
       {{ .Content }}
   {{ end }}
-
-  <div id="mybutton">
-    <button class="feedback">Jellou</button>
-  </div>
-{{ end }}
-
-{{ define "ultraleft"}}
-  <p>tres</p>
-    {{ partial "glossary" .}}
 {{ end }}

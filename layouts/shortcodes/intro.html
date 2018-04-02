@@ -1,5 +1,5 @@
 <!--Intro Cazador-->
-{{ $hunter := $.Page.Params.hunter}}
+{{ $hunter := $.Page.Parent.Params.hunter}}
 {{ $image_path :=  printf "/img/avatar_%s.png" $hunter }}
 <section class ="intro_cazador noSwipe">
   <div class = "container-fluid">

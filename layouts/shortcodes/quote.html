@@ -1,6 +1,6 @@
 <!-- Quote-->
-{{ $color := (index ($.Page.Params.colors) 1) }}
-{{ $hunter := $.Page.Params.hunter}}
+{{ $color := (index ($.Page.Parent.Params.colors) 1) }}
+{{ $hunter := $.Page.Parent.Params.hunter}}
 {{ $image_path :=  printf "/img/avatarhex_%s.png" $hunter }}
 <section class = "quote {{ $color }}  noSwipe">
   <div class = "container-fluid">

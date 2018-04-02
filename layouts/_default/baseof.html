@@ -14,7 +14,10 @@
     <link href='http://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700' rel='stylesheet' type='text/css'>
 
     <link rel="stylesheet" type="text/css" href='{{ "/css/style.css"  | absURL  }}' />
+    <link rel="stylesheet" type="text/css" href='{{ "/css/prism.css"  | absURL  }}' />
 
+    <link rel="stylesheet"
+          href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
      <!-- Scripts -->
     <script src='{{ "js/jquery-1.11.3.min.js" | absURL }}'></script>
     <script src='{{ "js/bootstrap.min.js" | absURL }}'></script>
@@ -30,7 +33,7 @@
   </head>
   <body>
 
-    {{ block "header" . }}
+    {{ block "navbar" . }}
     {{ end }}
 
     <div id="splitlayout" class="splitlayout reset-layout">
@@ -38,6 +41,7 @@
         <div class="side side-left">
           {{ block "left" . }}
           {{ end }}
+
         </div>
 
         <div class="side side-right">
@@ -60,6 +64,6 @@
     {{ block "footer" . }}
     {{ end }}
 
-    </script>
+    <script src='{{ "js/prism.js" | absURL }}'></script>
   </body>
 </html>

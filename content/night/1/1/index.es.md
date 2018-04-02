@@ -1,17 +1,7 @@
 +++
-title = "Night 1"
+title = "Night 1 Page 1"
 description = ""
-night = "1"
-page = "1"
-colors = ["green", "yellow"]
-hunter = "daniel"
-right_type = ""
-tags = [ "", "", "", "" ]
 date = "2018-03-31"
-categories = [
-  "night",
-  ""
-]
 slug = ""
 +++
 

@@ -1,5 +1,5 @@
 <!-- Image-->
-{{ $color := (index ($.Page.Params.colors) 0) }}
+{{ $color := (index ($.Page.Parent.Params.colors) 0) }}
 {{ $name := .Get "name"}}
 <section class = "night noSwipe">
   <div class = "container-fluid">
