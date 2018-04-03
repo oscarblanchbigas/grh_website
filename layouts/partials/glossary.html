@@ -1,4 +1,7 @@
 {{$list := .Site.GetPage "section" "glossary"}}
+{{$list1 := .Site.GetPage "section" "night"}}
+
+
 <!--Glossary Section-->
 <div class="page page-left">
   <div  class="page-inner full-height">
@@ -12,35 +15,34 @@
         </div>
       </div>
 
-      <hr>
 
+      <hr>
       {{ range $list.Data.Pages }}
         {{$img := .Resources.GetMatch "**.png" }}
-
-      <div class="row" id="#">
-        <div class="col-md-3">
-          <p class="keyword {{.Params.color}}" >{{.Title}}</p>
+        <div class="row" id="#">
+          <div class="col-md-3">
+            <p class="keyword {{.Params.color}}" >{{.Title}}</p>
+          </div>
+          <div class="col-md-6">
+            <p class="tagline">{{.Description}}</p>
+            <span class="small-hr"></span>
+            <p class="align-center description">{{.Content}}</p>
+            <br>
+            <p>Descubre más: </p>
+            <ul class="fa-ul">
+            {{ range $k, $v := .Params.links}}
+              <li><i class="fa-li fa fa-external-link"></i><a href="{{index $v 1}}" target="_blank">@ {{index $v 0}}</a></li>
+            {{end}}
+            </ul>
+            <br>
+          </div>
+          {{ if $img}}
+          <div class="col-md-3"><a target="blank"><img src="{{ $img.RelPermalink }}" class="image-responsive"></div></a>
+          {{ end }}
         </div>
-        <div class="col-md-6">
-          <p class="tagline">{{.Description}}</p>
-          <span class="small-hr"></span>
-          <p class="align-center description">{{.Content}}</p>
-          <br>
+      {{ end }}
 
-          <p>Descubre más: </p>
-          <ul class="fa-ul">
 
-            <li><i class="fa-li fa fa-external-link"></i><a href="https://en.wikipedia.org/wiki/Black_hole" target="_blank">@ Wikipedia</a></li>
-            <li><i class="fa-li fa fa-external-link"></i><a href="http://www.nasa.gov/audience/forstudents/k-4/stories/nasa-knows/what-is-a-black-hole-k4.html" target="_blank">@ NASA</a></li>
-            <li><i class="fa-li fa fa-external-link"></i><a href="http://hubblesite.org/explore_astronomy/black_holes/home.html" target="_blank">@ Hubble Site</a></li>
-            <li><i class="fa-li fa fa-external-link"></i><a href="http://www.universetoday.com/46687/black-hole-facts/" target="_blank">@ Universe Today</a></li>
-          </ul>
-          <br>
-        </div>
-        <div class="col-md-3"><a target="blank"><img src="{{ $img.RelPermalink }}" class="image-responsive"></div></a>
-      </div>
-
-{{ end }}
 
 
 
