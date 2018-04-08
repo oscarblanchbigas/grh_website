@@ -16,6 +16,7 @@ Para usar nuestros telescopios no hay que mirar por un agujero pequeño con un o
 
 Necesitas una cámara ultrarrápida que detecte flashes de luz de pocos nanosegundos. Así es la cámara de MAGIC: saca fotos rapidísimas y luego nosotros las analizamos en el ordenador.
 
+
 {{< img name="MAGIC.png" caption="Aquí puedes ver la cámara de los telescopios (amarillo) y los espejos (rojo) que reflejan la luz que nos llega y la dirigen hacia la cámara." credit="MAGIC Collaboration">}}
 
 {{< quote

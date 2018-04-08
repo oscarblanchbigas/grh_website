@@ -1,25 +1,17 @@
-+++
-title = "test notebook 1"
-description = ""
-date = "2018-03-31"
-slug = ""
-type = "notebook"
-+++
 
 # La libreta científica de Daniel
 Esta es mi **libreta científica**. Aquí puedo ver los **datos** de los telescopios, hacer **cálculos** y **anotaciones**. Es una herramienta más de los Cazadores de Rayos Gamma. Todos los azadores tenemos la nuestra y tu tienes la tuya en ** Tu Noche **.
 
 Lo mejor es entender cómo funciona con un ejemplo. Así que vamos a calcular si los filtros que hemos diseñado son los adecuados o no.
 
-Tenemos 3 conjuntos de datos.
-
+Tenemos 3 conjuntos de datos. 
 - Uno tiene los datos de la cantidad de **luz de luna** que llega a los telescopios.
 - Otro tiene los datos de la **luz de los rayos gammas** que nos llega a los telescopios.
-- El último tiene la información de cuánta luz (de la luna o de los gammas) pasa por el filtro.
+- El último tiene la información de cuánta luz (de la luna o de los gammas) pasa por el filtro. 
 
 Cada fichero nos muestra la información por longitud de onda.
 
-**¡ATENCIÓN!** Recuerda que para ejecutar el código que hay en cada una de las celdas de comandos debes pulsar *SHIFT+ENTER*.
+**¡ATENCIÓN!** Recuerda que para ejecutar el código que hay en cada una de las celdas de comandos debes pulsar *SHIFT+ENTER*.  
 Y si por cualquier razón haces doble click en una celda de texto com esta, verás el texto sin formato. haciendo *SHIFT+ENTER* lo volverás a ver bien.
 
 
@@ -36,7 +28,7 @@ from noche1_2 import *
 leer("luna")
 ```
 
-    LongitudOnda  Emision
+    LongitudOnda  Emision 
     ------------ ---------
              270    0.0921
              280  0.077652
@@ -85,7 +77,7 @@ Con el gráfico es fácil de ver que la cantidad de **luz de luna** (por cierto,
 
 ----------
 
-Miremos qué pasa con la **luz de los rayos gamma** y los filtros:
+Miremos qué pasa con la **luz de los rayos gamma** y los filtros: 
 
 
 ```python
@@ -188,8 +180,8 @@ totalcherenkovFiltrada/totalcherenkov
 
 
 
-¿Qué te parece? ¿Los filtros funcionan? ¿Pasa más luz de la Luna o más luz de los Gammas en proporción?
+¿Qué te parece? ¿Los filtros funcionan? ¿Pasa más luz de la Luna o más luz de los Gammas en proporción?  
 
-Los filtros no son perfectos, pero funcionan bastante bien. Así que ahora podremos observar incluso con Luna llena. Así tendremos más horas para seguir buscando Gammas. Y eso, como verás, es muy importante.
+Los filtros no son perfectos, pero funcionan bastante bien. Así que ahora podremos observar incluso con Luna llena. Así tendremos más horas para seguir buscando Gammas. Y eso, como verás, es muy importante.  
 
 Esta es tu primera libreta científica, tu primer paso como Cazador de Rayos Gamma. Sigue adelante en la noche, te esperan muchas sorpresas de alta energía.
