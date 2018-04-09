@@ -36,14 +36,14 @@ totalcherenkovFiltrada = np.sum(cherenkovfiltrada)
 def leer(tipo):
     if tipo == "luna":
         print (luna)
-        
+
     elif tipo == "gammas":
         print (cherenkov)
-        
+
     elif tipo == "filtro":
         print (filtro)
-       
-    else: print "no tenemos esos datos" 
+
+    else: print ("no tenemos esos datos")
 
 def grafica(tipo):
     pl.figure(1, figsize=(20, 10), facecolor='w', edgecolor='k')
@@ -95,23 +95,20 @@ def grafica(tipo):
 def multiplicar (tipo1,tipo2):
 
     if tipo1 == "luna" and tipo2 =="filtro":
-        
-       
+
+
         print ('totalluna: {0:.2f}'.format(totalluna))
         print ("lunafiltrada:")
         print (lunafiltrada)
         print ('totallunaFiltrada: {0:.2f}'.format(totallunaFiltrada))
 
     elif tipo1 == "gammas" and tipo2 =="filtro":
-        
+
         print ('totalgammas: {0:.2f}'.format(totalcherenkov))
-        print "gammasfiltrada" 
-        print cherenkovfiltrada
-        print 'totalgammasFiltrada: {0:.2f}'.format(totalcherenkovFiltrada)
-    else: print "no tenemos esos datos"
+        print ("gammasfiltrada")
+        print (cherenkovfiltrada)
+        print ('totalgammasFiltrada: {0:.2f}'.format(totalcherenkovFiltrada))
+    else: print ("no tenemos esos datos")
 
 def fin():
-    Image(filename='yougotthis.jpg') 
-
-
-
+    Image(filename='yougotthis.jpg')
