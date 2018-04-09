@@ -1,0 +1,8 @@
+#!/bin/sh
+USER=sgrinschpun
+HOST=ifaews01.pic.es
+DIR=grh   # might sometimes be empty!
+
+hugo && rsync -avz --delete public/ ${USER}@${HOST}:~/${DIR}
+
+exit 0
