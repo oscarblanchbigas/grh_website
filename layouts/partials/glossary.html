@@ -5,15 +5,13 @@
   <div  class="page-inner full-height">
     <div class="container align-center detail-info">
       <div class="row">
-        <div class="col-md-3 text-center">
-          <img src="/img/isotip_blue.png"  class="image-responsive">
+        <div class="col-md-2 text-center">
+          <img src={{"/img/isotip_blue.png"| relURL}} class="img-responsive">
         </div>
-        <div class="col-md-6">
+        <div class="col-md-8">
           <p class="keyword">Diccionario de un buen cazador</p>
         </div>
       </div>
-
-
       <hr>
       {{ range $list.Data.Pages }}
         {{$img := .Resources.GetMatch "**.png" }}
@@ -38,11 +36,6 @@
           {{ end }}
         </div>
       {{ end }}
-
-
-
-
-
     </div>
   </div>
 </div>
