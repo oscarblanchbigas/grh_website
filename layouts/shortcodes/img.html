@@ -6,7 +6,7 @@
     <div class="row">
       <div class="col-md-8">
         <img src="{{$name}}" class="img-responsive center-block {{$color}}">
-        {{ with .Get "caption"}}<p class="image_caption {{$color}}">{{.}} {{end}} {{ with .Get "credit"}}<em>Image Credit: {{.}}</em></p>{{end}}
+        {{ with .Get "caption"}}<p class="image_caption {{$color}}">{{.}} {{end}} {{ with .Get "credit"}}<em>{{ i18n "image_credit"}}: {{.}}</em></p>{{end}}
       </div>
     </div>
   </div>

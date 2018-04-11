@@ -9,6 +9,7 @@ defaultContentLanguageInSubdir= true
 [languages.en]
 title = "Gamma Ray Hunters"
 weight = 1
+
 [languages.en.params]
 
 

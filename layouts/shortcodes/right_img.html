@@ -6,7 +6,7 @@
     {{ with .Get "text"}}<div class="col-sm-7"><p>{{.}}</p></div>{{end}}
   </div>
   <div class=" credit-overlay">
-    {{ with .Get "credit"}}<p>Image Credit: {{.}}</p>{{end}}
+    {{ with .Get "credit"}}<p>{{ i18n "image_credit"}}: {{.}}</p>{{end}}
   </div>
 </div>
 
