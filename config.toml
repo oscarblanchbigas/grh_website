@@ -5,12 +5,26 @@ title = "My New Hugo Site"
 defaultContentLanguage = "es"
 defaultContentLanguageInSubdir= true
 
+#Syntax Highlighting
+PygmentsCodeFences = true
+PygmentsStyle = "colorful"
+PygmentsCodefencesGuessSyntax = true
+#https://help.farbox.com/pygments.html
+
+
+
 [languages]
 [languages.en]
 title = "Gamma Ray Hunters"
 weight = 1
 
 [languages.en.params]
+
+[[languages.en.menu.main]]
+identifier = "home"
+name = "home"
+url = "/"
+weight = 1
 
 
 [languages.es]
@@ -21,6 +35,10 @@ weight = 2
 linkedin = "lien-francais"
 [languages.es.params.navigation]
 help  = "Aide"
-
+[[languages.es.menu.main]]
+identifier = "inicio"
+name = "inicio"
+url = "/"
+weight = 1
 
 [languages.ca]

@@ -25,11 +25,17 @@ https://sadanand-singh.github.io/posts/nikola2hugo/#jupyter-notebooks-as-posts
 http://prismjs.com/
 
 
+typeform
 
+https://piazza.com/product/overview
 
+https://www.acadly.com/features.html
+https://tophat.com/
+https://prulu.com/
 
+https://www.glisser.com/features/audience-qa/
 
-
+https://www.onlineexambuilder.com/
 
 https://kahoot.com/
 

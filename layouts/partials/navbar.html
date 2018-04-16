@@ -14,8 +14,9 @@
       </li>
     </ul>
     <ul class="nav navbar-nav navbar-center">
-      <a href="#"
-         ><div id="GoHome" class="call-to-action GoHome"><p data-hover="Home"></p></div></a>
+      {{ range .Site.Menus.main }}
+      <a href="{{ .URL }}"><div id="GoHome" class="call-to-action GoHome"><p data-hover="{{ .Name }}"></p></div></a>
+      {{end}}
       <div class="call-to-action ifae_nav">
         <a href="http://www.ifae.es/" target="_blank"
            ><img src={{"/img/ifae_nav.png" | relURL}} height="30"></a>
@@ -27,32 +28,30 @@
     </ul>
 
     <ul class="nav navbar-nav">
+      {{ with .NextInSection }}
       <li>
-
         <div id="PrevPage" class="call-to-action PrevPage">
-          <a href="#"
-             ><i class="fa fa-arrow-left fa-2x"></i></a>
+          <a href="{{ .Permalink }}"><i class="fa fa-arrow-left fa-2x"></i></a>
           <span class="top"></span>
           <span class="right"></span>
           <span class="bottom"></span>
           <span class="left"></span>
         </div>
-
       </li>
-      <p class="call-to-action location"
-         > Noche: 1  Página: 1/6 </p>
+      {{ end }}
+      <p class="call-to-action location"> Noche: 1  Página: 1/6</p>
+
+      {{ with .PrevInSection }}
       <li>
-
         <div id="NextPage" class="call-to-action NextPage">
-          <a href= "#"
-             ><i class="fa fa-arrow-right fa-2x"></i></a>
+          <a href="{{ .Permalink }}"><i class="fa fa-arrow-right fa-2x"></i></a>
           <span class="top"></span>
           <span class="right"></span>
           <span class="bottom"></span>
           <span class="left"></span>
         </div>
-
       </li>
+      {{ end }}
     </ul>
 
 
@@ -66,9 +65,6 @@
           <span class="bottom" ></span>
           <span class="left" ></span>
         </div>
-      </li>
-      <li>
-        <div class="call-to-action logout"><a href="#" data-hover="Seguro?">logout</a></div>
       </li>
     </ul>
   </div>

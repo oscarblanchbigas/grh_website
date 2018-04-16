@@ -2,7 +2,7 @@
 title = "Night 1 Page 1"
 description = ""
 date = "2018-03-31"
-slug = ""
+weight = 1
 +++
 
 {{< title
