@@ -1,0 +1,18 @@
+.page-right .page-inner {
+  padding-bottom: 100px;
+}
+
+.page-right .page-inner .trans-overlay-dark-contact {
+  background: #ffffff;
+  /* The Fallback */
+  background: #ffffff;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+
+.page-right .page-inner .copyright {
+  display: none;
+}

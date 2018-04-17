@@ -1,0 +1,166 @@
+.side-left {
+  padding-top: 1%;
+  padding-bottom: 70px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+
+  background: $themeColor-White;
+
+  p {
+    padding-top: 0%;
+    padding-right: 2%;
+    padding-left: 2%;
+    padding-bottom: 0%;
+    font-size: 13px;
+    font-weight: 200;
+    text-align: left;
+  }
+  li {
+    font-size: 13px;
+    font-weight: 200;
+    color: $themeColor-Black;
+
+  }
+  a {
+    text-decoration: underline;
+  }
+  .blue{
+    color: $themeColor-Blue;
+  }
+  .green {
+    color: $themeColor-Green;
+  }
+  .rose {
+    color: $themeColor-Rose;
+  }
+  .yellow {
+    color: $themeColor-Yellow;
+  }
+  .red {
+    color: $themeColor-Red;
+  }
+  .grey {
+    color: $themeColor-Grey;
+  }
+  img {
+    border-style: solid;
+    border-width: 4px;
+    margin-top: 2%;
+    &.green {
+      border-color: $themeColor-Green;
+    }
+    &.red {
+      border-color: $themeColor-Red;
+    }
+    &.rose {
+      border-color: $themeColor-Rose;
+    }
+    &.yellow {
+      border-color: $themeColor-Yellow;
+    }
+    &.blue {
+      border-color: $themeColor-Blue;
+    }
+  }
+  .image_caption{
+    padding-bottom: 2%;
+    p {
+      padding: 2%;
+      line-height: 14px;
+      font-size: 11px;
+      font-weight: 200;
+      color:$themeColor-White;
+      margin-bottom: 2%;
+      text-align: left;
+      letter-spacing: 1px;
+    }
+
+    .green {
+      background: $themeColor-Green;
+    }
+    .red {
+      background: $themeColor-Red;
+    }
+    .yellow {
+      background: $themeColor-Yellow;
+    }
+    .blue {
+      background: $themeColor-Blue;
+    }
+    .rose {
+      background: $themeColor-Rose;
+    }
+  }
+  .night_title{
+    padding-bottom: 0%;
+    h1 {
+      color: $themeColor-Black;
+      font-size: 40px;
+      letter-spacing: -1px;
+      line-height: 100%;
+      font-weight: 600;
+      margin-top: -1%;
+
+    }
+    h2 {
+      font-family: "American Captain", sans-serif;
+      color: $themeColor-Black;
+      font-size: 40px;
+      font-weight: 400;
+      letter-spacing: 1px;
+
+    }
+    h3 {
+      color: $themeColor-Blue;
+      font-size: 30px;
+      font-weight: 400;
+      letter-spacing: -1px;
+      line-height: 100%;
+    }
+    img {
+      border-width: 0px;
+    }
+  }
+  .intro_hunter {
+    padding-top: 0%;
+    padding-bottom: 2%;
+    p {
+      padding-top: 10%;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 120%;
+    }
+    a {
+      text-decoration: underline;
+    }
+  }
+  .quote {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    p {
+      font-size: 15px;
+      font-weight: 300;
+      color: $themeColor-White;
+      text-align: right;
+      letter-spacing: 1px;
+      line-height: 115%;
+      padding-top: 3%;
+      padding-bottom: 3%;
+    }
+    .green {
+      background: $themeColor-Green url(../img/texture.png) right no-repeat;
+    }
+    .red {
+      background-color: $themeColor-Red;
+    }
+    .yellow {
+      background-color: $themeColor-Yellow;
+    }
+    .blue {
+      background-color: $themeColor-Blue;
+    }
+    .beige {
+      background-color: $themeColor-Beige;
+    }
+  }
+}

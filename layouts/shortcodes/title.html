@@ -4,16 +4,14 @@
 <section class ="night_title">
   <div class = "container-fluid">
     <div class="row">
-    <div class="col-lg-1"></div>
     <div class="col-lg-2 text-center logo">
-         <a href="/"><img src="{{$image_path | relURL}}" class="img-responsive" width="150"></a>
+         <a href="{{ '/' | relURL}}"><img src="{{$image_path | relURL}}" class="img-responsive" width="150"></a>
       </div>
       <div class="col-lg-1"></div>
-      <div class="col-lg-7 text-left">
+      <div class="col-lg-8 text-left">
         {{ with .Get "title"}}<h1 >{{.}}</h1>{{end}}
         {{ with .Get "subtitle"}}<h3 class="{{ $color }}">{{.}}</h3>{{end}}
       </div>
-      <div class="col-md-1"></div>
     </div>
   </div>
 </section>

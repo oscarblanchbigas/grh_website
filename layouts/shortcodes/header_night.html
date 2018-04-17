@@ -2,18 +2,9 @@
 {{ $color := (index ($.Page.Parent.Params.colors) 0) }}
 {{ $image_path :=  printf "img/isotip_%s.png" $color }}
 <section class ="night_title">
-  <div class = "container-fluid">
-    <div class="row">
-      <div class="col-md-12 logo2">
-        <a href="/"><img src="{{$image_path | relURL}}" width="50"></a>
-         <h2> <span style="font-size:40px">{{ i18n "night"}} {{substr $.Page.Parent.Dir -2 1}}:</span> {{$.Page.Parent.Title}}<h2>
-      </div>
-      <div class="col-md-5"></div>
-    </div>
-  </div>
+  <a href="{{ '/' | relURL}}"><img src="{{$image_path | relURL}}" width="50"></a>
+  <h2>{{ i18n "night"}} {{substr $.Page.Parent.Dir -2 1}}:{{$.Page.Parent.Title}}<h2>
   <hr>
-  <div class="row">
-  {{ with .Get "title"}}<div class="col-md-12"><h3 class="text-center green">{{.}}</h3></div>{{end}}
-  </div>
+  {{ with .Get "title"}}<h3 class="text-center green">{{.}}</h3>{{end}}
 </section>
 <!--/Header Night-->

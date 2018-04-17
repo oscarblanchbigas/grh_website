@@ -1,0 +1,69 @@
+body {
+  color: $themeColor-Black;
+  background: $themeColor-White;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.5;
+}
+
+strong {
+  font-weight: bold;
+}
+
+a:hover, a:active {
+  outline: 0;
+}
+
+button:focus {
+  border: none;
+  outline: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+p, a {
+  font-size: 14px;
+  font-weight: 400;
+  color: #000;
+  line-height: 15px;
+  text-align: left;
+}
+
+.content {
+  overflow: hidden;
+}
+
+.align-center {
+  clear: both;
+  float: none;
+  margin: 0 auto;
+}
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: #b4bdbb;
+  box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+}
+
+.bg-img, .page-left .page-inner, .page-right .page-inner {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

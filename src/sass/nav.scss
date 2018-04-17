@@ -1,0 +1,209 @@
+.main-menu .call-to-action {
+  position: relative;
+}
+
+.opacity-hide {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.opacity-inv {
+  visibility: hidden;
+}
+
+.nav-btn, .contact, .glossary1, .GoHome, .NextPage, .PrevPage, .logout, .location {
+  position: absolute;
+  top: 0;
+  z-index: 11;
+  cursor: pointer;
+}
+
+.button_left {
+  position: absolute;
+}
+
+.fa {
+  color: #000;
+  padding-top: 1%;
+  -webkit-appearance: none;
+  -webkit-backface-visibility: hidden;
+}
+
+.call-to-action {
+  display: block;
+  height: 50px;
+  width: 50px;
+}
+
+.call-to-action i {
+  left: 0;
+  right: 0;
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  margin: 0 auto;
+  transform: translate(0, -50%);
+  -webkit-transform: translate(0, -50%);
+}
+
+.call-to-action span {
+  background: #000;
+  position: absolute;
+  display: block;
+}
+
+.call-to-action .top {
+  height: 2px;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.call-to-action .bottom {
+  height: 2px;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+}
+
+.call-to-action .left {
+  height: 100%;
+  left: 0;
+  width: 2px;
+  bottom: 0;
+}
+
+.call-to-action .right {
+  width: 2px;
+  right: 0;
+  height: 100%;
+  top: 0;
+}
+
+.button_left {
+  position: absolute;
+}
+
+.glossary1 {
+  background-color: #84a58b;
+  /*green*/
+  left: 0px;
+}
+
+.glossary1:hover>i {
+  color: #ffffff;
+}
+
+.GoHome {
+  background-image: url('../img/isotip_blue.png');
+  background-size: 50px;
+  top: 2px;
+  padding-top: 0.2%;
+  left: 48%;
+  background-repeat: no-repeat;
+}
+
+.GoHome p {
+  position: relative;
+  font-family: "American Captain", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  letter-spacing: 2px;
+  color: black;
+  padding-top: 30%;
+  padding-left: 17%;
+}
+
+.GoHome p:hover {
+  font-size: 0px;
+}
+
+.GoHome p:hover:before {
+  font-size: 16px;
+  content: attr(data-hover);
+}
+
+.NextPage {
+  position: absolute;
+  background-color: #cfb064;
+  /*yellow*/
+  left: 270px;
+}
+
+.NextPage:hover .fa {
+  color: #ffffff;
+}
+
+.location {
+  top: 8px;
+  left: 200px;
+  font-weight: 300;
+  font-size: 8px;
+  line-height: 18px;
+}
+
+.PrevPage {
+  position: absolute;
+  background-color: #e68573;
+  /*red*/
+  left: 130px;
+}
+
+.PrevPage:hover .fa {
+  color: #ffffff;
+}
+
+.ifae_nav {
+  position: absolute;
+  z-index: 11;
+  top: 10px;
+  /*left: 650px;*/
+  left: 55%;
+}
+
+.fecyt_nav {
+  position: absolute;
+  z-index: 11;
+  top: 10px;
+  /*left: 780px;*/
+  left: 65%;
+}
+
+.logout {
+  position: absolute;
+  z-index: 11;
+  top: 15px;
+  left: 100%;
+}
+
+.logout a {
+  position: relative;
+  font-family: "American Captain", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  letter-spacing: 2px;
+  color: black;
+}
+
+.logout a:hover {
+  font-size: 0;
+}
+
+.logout a:hover:before {
+  font-size: 12px;
+  content: attr(data-hover);
+}
+
+.open-left .glossary1 {
+  /*left: 10px;*/
+}
+
+.contact {
+  background-color: #e8d1af;
+  /*beige*/
+  right: 29px;
+}
+
+.contact:hover>i {
+  color: #ffffff;
+}
