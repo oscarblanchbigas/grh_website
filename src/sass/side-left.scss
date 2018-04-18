@@ -137,6 +137,7 @@
   .quote {
     padding-top: 3%;
     padding-bottom: 3%;
+
     p {
       font-size: 15px;
       font-weight: 300;
@@ -148,19 +149,25 @@
       padding-bottom: 3%;
     }
     .green {
-      background: $themeColor-Green url(../img/texture.png) right no-repeat;
+      background-color:  $themeColor-Green;
+      background-image: url("../img/texture.png");
+
     }
     .red {
       background-color: $themeColor-Red;
+      background-image: url("../img/texture.png");
     }
     .yellow {
       background-color: $themeColor-Yellow;
+      background-image: url("../img/texture.png");
     }
     .blue {
       background-color: $themeColor-Blue;
+      background-image: url("../img/texture.png");
     }
     .beige {
       background-color: $themeColor-Beige;
+      background-image: url("../img/texture.png");
     }
   }
 }

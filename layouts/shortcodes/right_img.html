@@ -1,11 +1,10 @@
 {{ $image_path :=  printf "/img/avatarhex_%s.png" (.Get "hunter") }}
 <div class = "container-fluid">
   <div class="row quote-overlay">
-    <div class="col-sm-1"></div>
-    <div class="col-sm-4"><img src="{{$image_path | relURL}}"  class="img-responsive"></div>
-    {{ with .Get "text"}}<div class="col-sm-7"><p>{{.}}</p></div>{{end}}
+    <div class="col-sm-3"><img src="{{$image_path | relURL}}"  class="img-responsive"></div>
+    {{ with .Get "text"}}<div class="col-sm-9"><p>{{.}}</p></div>{{end}}
   </div>
-  <div class=" credit-overlay">
+  <div class="credit-overlay">
     {{ with .Get "credit"}}<p>{{ i18n "image_credit"}}: {{.}}</p>{{end}}
   </div>
 </div>

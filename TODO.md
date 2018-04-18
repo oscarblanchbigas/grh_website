@@ -1,18 +1,18 @@
+- SASS side-right
+- SASS nav
+- SASS ultra-left
+- syntax highlighting /notebook look
+- night 1 notebooks
+- button
+- integrate component2
+- responsive??
 
 
-## Base
-- CSS
-
-
-## Partials
 
 
 
-## Translations
-https://gohugo.io/content-management/multilingual/
 
-check menus
-check strings
+
 
 
 https://github.com/knowsuchagency/hugo_jupyter
