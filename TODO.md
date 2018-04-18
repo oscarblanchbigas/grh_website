@@ -4,7 +4,9 @@
 - syntax highlighting /notebook look
 - night 1 notebooks
 - button
+- font management
 - integrate component2
+- image processing to reduce size
 - responsive??
 
 
