@@ -7,6 +7,25 @@ body {
   line-height: 1.5;
 }
 
+.blue{
+  color: $themeColor-Blue;
+}
+.green {
+  color: $themeColor-Green;
+}
+.rose {
+  color: $themeColor-Rose;
+}
+.yellow {
+  color: $themeColor-Yellow;
+}
+.red {
+  color: $themeColor-Red;
+}
+.grey {
+  color: $themeColor-Grey;
+}
+
 strong {
   font-weight: bold;
 }

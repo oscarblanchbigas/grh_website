@@ -6,6 +6,7 @@ module.exports = {
   output: {
     filename: '../static/js/bundle.js'
   },
+  watch: false,
   module: {
     rules: [
       /*
@@ -21,7 +22,23 @@ module.exports = {
         test: /\.(png|jpg|gif)$/,
         loader: 'url-loader'
       },
-    ]
+    ],
+    loaders: [
+      {
+           test: /\.scss$/,
+           loader: 'style-loader!css-loader!sass-loader'
+       },
+       {
+           test: /\.(woff(2)?|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
+           use: [{
+               loader: 'file-loader',
+               options: {
+                   name: '[name].[ext]',
+                   outputPath: 'fonts/'
+               }
+           }]
+       }
+    ],
   },
   plugins: [
     new ExtractTextPlugin({ // define where to save the file

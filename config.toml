@@ -7,10 +7,16 @@ defaultContentLanguageInSubdir= true
 
 #Syntax Highlighting
 PygmentsCodeFences = true
-PygmentsStyle = "colorful"
+PygmentsStyle = "manni"
 PygmentsCodefencesGuessSyntax = true
 #https://help.farbox.com/pygments.html
 
+#Notebooks Server
+[params]
+  [params.Notebooks]
+    1server = "https://mybinder.org/v2/gh/"
+    2git = "IFAE/grh_website/master"
+    3path ="?filepath=/notebooks/"
 
 
 [languages]

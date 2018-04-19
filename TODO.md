@@ -1,4 +1,3 @@
-- SASS side-right
 - SASS nav
 - SASS ultra-left
 - syntax highlighting /notebook look

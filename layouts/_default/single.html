@@ -10,16 +10,10 @@
 </div>
 {{ end }}
 
-{{ define "right"}}
-  {{ $right_path :=  printf "**.%s.md" .Lang }}
-  {{ range .Resources.Match $right_path }}
-  <div class="{{ .Params.type }}">
-    {{ if eq .Params.type "notebook" }}
-    <a href="https://mybinder.org/v2/gh/IFAE/grh_website/master?filepath=%2Fnotebooks" type="button" id="myButton" class="btn btn-primary" target="blank">Entra</a>
-    {{ end }}
-    {{ .Content }}
-  </div>
-  {{ end }}
+{{ define "right" }}
+<div class="{{ .Params.type }}">
+  {{ partial "right" .}}
+</div>
 {{ end }}
 
 {{ define "ultraleft"}}

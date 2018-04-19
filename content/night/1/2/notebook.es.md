@@ -1,9 +1,10 @@
 +++
-title = "test notebook 1"
+title = "Notebook 1-2"
 description = ""
 date = "2018-03-31"
 slug = ""
 type = "notebook"
+notebook = "night_1_2.ipynb"
 +++
 
 # La libreta científica de Daniel
