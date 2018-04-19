@@ -1,8 +1,8 @@
 +++
 title = "Night 1 Page 1"
 description = ""
-date = "2018-03-31"
 weight = 1
+type= "night"
 +++
 
 {{< title

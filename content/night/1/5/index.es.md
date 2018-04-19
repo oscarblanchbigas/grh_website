@@ -1,9 +1,9 @@
 +++
 title = "Night 1 Page 5"
 description = ""
-date = "2018-03-31"
-slug = ""
 weight = 5
+type= "night"
+right = "notebook"
 +++
 
 {{< header_night title="Cazadores con paciencia" >}}

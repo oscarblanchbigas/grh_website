@@ -1,9 +1,8 @@
 +++
 title = "Night 1 Page 3"
 description = ""
-date = "2018-03-31"
-slug = ""
 weight = 3
+type= "night"
 +++
 
 {{< header_night title="Una gráfica vale más que mil palabras">}}

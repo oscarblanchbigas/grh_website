@@ -1,6 +1,6 @@
 +++
 title = "N1P1 Right"
-type= "right-pic"
+type = "right-pic"
 +++
 
 {{< right_img

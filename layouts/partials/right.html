@@ -1,9 +1,9 @@
 
 {{ $right_path :=  printf "**.%s.md" .Lang }}
+{{ if eq .Params.right "notebook" }}
+  {{ $notebook_path := printf "%s%s" (delimit .Site.Params.notebooks "") .Params.notebook }}
+  <a href="{{ $notebook_path }}" type="button" id="myButton" class="btn btn-primary" target="blank">Entra</a>
+{{ end }}
 {{ range .Resources.Match $right_path }}
-  {{ if eq .Params.type "notebook" }}
-    {{ $notebook_path := printf "%s%s" (delimit .Site.Params.notebooks "") .Params.notebook }}
-    <a href="{{ $notebook_path }}" type="button" id="myButton" class="btn btn-primary" target="blank">Entra</a>
-  {{ end }}
   {{ .Content }}
 {{ end }}

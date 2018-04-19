@@ -1,9 +1,9 @@
 +++
 title = "Night 1 Page 4"
 description = ""
-date = "2018-03-31"
-slug = ""
 weight = 4
+type= "night"
+right = "notebook"
 +++
 
 {{< header_night title="Cómo deshacerse del fondo">}}

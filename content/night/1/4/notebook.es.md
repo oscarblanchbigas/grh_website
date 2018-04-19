@@ -1,9 +1,6 @@
 +++
 title = "Notebook 1-4"
 description = ""
-date = "2018-03-31"
-slug = ""
-type = "notebook"
 notebook = "night_1_4.ipynb"
 +++
 
