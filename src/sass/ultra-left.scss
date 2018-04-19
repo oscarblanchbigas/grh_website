@@ -1,48 +1,49 @@
-.detail-info {
-  position: relative;
-  z-index: 2;
-  padding-top: 5%;
-  text-align: left;
-}
-
-.page-left .page-inner .small-hr {
+// .page-inner
+.page-left {
   margin-top: 9px;
   margin-bottom: 23px;
-}
-
-.page-left {
   overflow-x: hidden;
   overflow-y: scroll;
-  .keyword {
+  .detail-info {
+    position: relative;
+    z-index: 2;
+    padding-top: 5%;
+    text-align: left;
+  }
+  h2 {
+    font-family: "American Captain", sans-serif;
+    color: $themeColor-Black;
+    font-size: 50px;
+    letter-spacing: 1px;
+  }
+  h3 {
     font-size: 40px;
     font-weight: 600;
     line-height: 40px;
     letter-spacing: -1px;
-    padding-top: 5%;
+    margin-top: 0;
+    padding-top: 0%;
   }
-  .tagline {
+  h4 {
     font-size: 15px;
     font-weight: 400;
     line-height: 20px;
     letter-spacing: 0px;
-    a {
-      text-decoration: underline;
-    }
-    ul {
-      padding-top: 2%;
-    }
-    a {
-      color: #000000;
-      font-size: 12px;
-      font-weight: 300;
-    }
-    .fa {
-      padding-top: 1.5%;
-      font-size: 0.7em;
-    }
-    img {
-      padding-top: 5%;
-    }
-  }
-
+    color: $themeColor-Black;
+ }
+ p {
+   font-size: 13px;
+   font-weight: 300;
+   letter-spacing: 0px;
+   line-height: 130%;
+   color: $themeColor-Black;
+ }
+ .fa {
+   padding-top: 2.5%;
+   font-size: 0.6em;
+ }
+ a {
+   font-size: 13px;
+   font-weight: 600;
+ }
 }

@@ -2,28 +2,27 @@
 
 <!--Glossary Section-->
 <div class="page page-left">
-  <div  class="page-inner full-height">
-    <div class="container-fluid align-center detail-info">
+    <div class="container-fluid detail-info">
       <div class="row">
-        <div class="col-md-2 text-center">
-          <img src={{"/img/isotip_blue.png"| relURL}} class="img-responsive">
+        <div class="col-sm-1 col-sm-offset-1">
+          <img src={{"/img/isotip_blue.png"| relURL}} class="img-responsive center-block">
         </div>
-        <div class="col-md-9 col-md-offset-1">
-          <p class="keyword">Diccionario de un buen cazador</p>
+        <div class="col-sm-8 col-md-offset-1">
+          <h2>Diccionario de un buen cazador</h2>
         </div>
       </div>
       <hr>
+      <div class="container">
       {{ range $list.Data.Pages }}
         {{$img := .Resources.GetMatch "**.png" }}
         <div class="row" id="#">
-          <div class="col-md-3">
-            <p class="keyword {{.Params.color}}" >{{.Title}}</p>
+          <div class="col-sm-3">
+            <h3 class="{{.Params.color}}" >{{.Title}}</h3>
           </div>
-          <div class="col-md-6">
-            <p class="tagline">{{.Description}}</p>
-            <p class="align-center description">{{.Content}}</p>
-            <br>
-            <p>Descubre más: </p>
+          <div class="col-sm-6">
+            <h4>{{.Description}}</h4>
+            <p>{{.Content}}</p>
+            <p><strong>Descubre más: </strong></p>
             <ul class="fa-ul">
             {{ range $k, $v := .Params.links}}
               <li><i class="fa-li fa fa-external-link"></i><a href="{{index $v 1}}" target="_blank">@ {{index $v 0}}</a></li>
@@ -32,10 +31,10 @@
             <br>
           </div>
           {{ if $img}}
-          <div class="col-md-3"><a target="blank"><img src="{{ $img.RelPermalink }}" class="image-responsive"></div></a>
+          <div class="col-sm-3"><a target="blank"><img src="{{ $img.RelPermalink }}" class="image-responsive"></div></a>
           {{ end }}
         </div>
       {{ end }}
+      </div>
     </div>
-  </div>
 </div>
