@@ -4,6 +4,7 @@
   margin-bottom: 23px;
   overflow-x: hidden;
   overflow-y: scroll;
+  color: $themeColor-Black;
   .detail-info {
     position: relative;
     z-index: 2;
@@ -12,7 +13,6 @@
   }
   h2 {
     font-family: "American Captain", sans-serif;
-    color: $themeColor-Black;
     font-size: 50px;
     letter-spacing: 1px;
   }
@@ -29,14 +29,12 @@
     font-weight: 400;
     line-height: 20px;
     letter-spacing: 0px;
-    color: $themeColor-Black;
  }
  p {
    font-size: 13px;
    font-weight: 300;
    letter-spacing: 0px;
    line-height: 130%;
-   color: $themeColor-Black;
  }
  .fa {
    padding-top: 2.5%;
