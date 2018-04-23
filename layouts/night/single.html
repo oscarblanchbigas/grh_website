@@ -19,3 +19,13 @@
 {{ define "ultraleft"}}
     {{ partial "glossary" .}}
 {{ end }}
+
+{{ define "scripts"}}
+    {{ partial "javascripts" }}
+{{ end }}
+
+{{ define "extrascripts"}}
+    {{ if ne .Params.right "notebook" }}current
+    <script>$(".side-right").css('background-image', 'url(right_bg.jpg)');</script>
+    {{ end }}
+{{ end }}
