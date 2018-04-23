@@ -327,6 +327,7 @@ p, a {
       letter-spacing: -1px;
       line-height: 100%; }
     .side-left .night_title img {
+      border-style: none;
       border-width: 0px; }
   .side-left .intro_hunter {
     padding-top: 0%;
@@ -338,6 +339,9 @@ p, a {
       line-height: 120%; }
     .side-left .intro_hunter a {
       text-decoration: underline; }
+    .side-left .intro_hunter img {
+      border-style: none;
+      border-width: 0px; }
   .side-left .quote {
     padding-top: 3%;
     padding-bottom: 3%; }

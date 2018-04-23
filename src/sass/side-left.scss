@@ -101,6 +101,7 @@
       line-height: 100%;
     }
     img {
+      border-style: none;
       border-width: 0px;
     }
   }
@@ -115,6 +116,10 @@
     }
     a {
       text-decoration: underline;
+    }
+    img {
+      border-style: none;
+      border-width: 0px;
     }
   }
   .quote {
