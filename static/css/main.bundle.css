@@ -254,6 +254,7 @@ p, a {
   padding-bottom: 70px;
   overflow-x: hidden;
   overflow-y: scroll;
+  color: #000;
   background: #ffffff; }
   .side-left p {
     padding-top: 0%;
