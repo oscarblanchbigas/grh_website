@@ -7,7 +7,7 @@
       <div class="col-xs-8 col-xs-offset-2">
         <img src="{{$name}}" class="img-responsive {{$color}}">
         <div class="image_caption">
-          {{ with .Get "caption"}}<p class="{{$color}}">{{.}} {{end}} {{ with .Get "credit"}}<em>{{ i18n "image_credit"}}: {{.}}</em></p>{{end}}      
+          <p class="{{$color}}">{{ with .Get "caption"}}{{.}} {{end}} {{ with .Get "credit"}}<em>{{ i18n "image_credit"}}: {{.}}</em>{{end}}</p>
         </div>
       </div>
     </div>
