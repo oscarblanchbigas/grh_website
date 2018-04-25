@@ -1,5 +1,8 @@
 [night]
 other = "Night"
 
+[page]
+other = "Page"
+
 [image_credit]
 other = "Image Credit"

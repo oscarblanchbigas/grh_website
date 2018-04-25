@@ -1,13 +1,14 @@
 <!-- Image-->
 {{ $color := (index ($.Page.Parent.Params.colors) 0) }}
-{{ $name := .Get "name"}}
+{{ $original := .Page.Resources.GetMatch (printf "%s*" (.Get "name")) }}
+{{ $image := $original.Resize "600x" }}
 <section class = "noSwipe">
   <div class = "container-fluid">
     <div class="row">
       <div class="col-xs-8 col-xs-offset-2">
-        <img src="{{$name}}" class="img-responsive {{$color}}">
+        <img src="{{ $image.RelPermalink }}" class="img-responsive {{$color}}">
         <div class="image_caption">
-          {{ with .Get "caption"}}<p class="{{$color}}">{{.}} {{end}} {{ with .Get "credit"}}<em>{{ i18n "image_credit"}}: {{.}}</em></p>{{end}}      
+          <p class="{{$color}}">{{ with .Get "caption"}}{{.}} {{end}} {{ with .Get "credit"}}<em>{{ i18n "image_credit"}}: {{.}}</em>{{end}}</p>
         </div>
       </div>
     </div>

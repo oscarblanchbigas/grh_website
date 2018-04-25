@@ -63,3 +63,6 @@ node_modules/
 
 # hugo rendered htmls
 public/
+
+# hugo rendered images
+resources/
