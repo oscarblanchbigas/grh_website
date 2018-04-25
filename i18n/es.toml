@@ -6,3 +6,6 @@ other = "Pág."
 
 [image_credit]
 other = "Crédito de la imagen"
+
+[video_credit]
+other = "Crédito del vídeo"

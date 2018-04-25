@@ -1,0 +1,17 @@
+<!-- Image-->
+{{ $color := (index ($.Page.Parent.Params.colors) 0) }}
+<section class = "noSwipe">
+  <div class = "container-fluid">
+    <div class="row">
+      <div class="col-sm-9 col-sm-offset-1 col-lg-8 col-lg-offset-2">
+        <div class="embed-responsive embed-responsive-16by9">
+          {{ with .Get "url"}}<iframe width="560" height="315" src="{{.}}" frameborder="0" allowfullscreen></iframe>{{end}}
+        </div>
+        <div class="image_caption">
+          <p class="{{$color}}">{{ with .Get "caption"}}{{.}} {{end}} {{ with .Get "credit"}}<em>{{ i18n "video_credit"}}: {{.}}</em>{{end}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /Image-->

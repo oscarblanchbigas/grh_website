@@ -6,3 +6,6 @@ other = "Page"
 
 [image_credit]
 other = "Image Credit"
+
+[video_credit]
+other = "Video credit"
