@@ -15,7 +15,22 @@ module.exports = {
       { // css / sass / scss loader for webpack
         test: /\.(css|sass|scss)$/,
         use: ExtractTextPlugin.extract({
-          use: ['css-loader', 'sass-loader'],
+          use: [
+            {
+                loader: 'css-loader',
+                options: {
+                    url: false,
+                    minimize: true
+                }
+            },
+            {
+                loader: 'sass-loader',
+                options: {
+                    url: false,
+                    minimize: true
+                }
+            }
+          ]
         })
       },
       {//png /jpg loader for webpack

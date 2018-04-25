@@ -2,6 +2,24 @@
 
 //@import 'fontface';
 //@include fontFace('American Captain','../fonts/AmericanCaptain');
+@import '../css/bootstrap.min.css';
+@import '../css/component2.css';
+@import '../css/font-awesome.min.css';
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,200i,300,300i,400,400i|Roboto+Slab:300,400,700');
+
+@font-face {
+  font-family: "American Captain";
+  src: url("../fonts/AmericanCaptain/a6bec1c4ef2d2fd1bac5a6951f5f32a3.eot");
+  /* IE9*/
+  src: url("../fonts/AmericanCaptain/a6bec1c4ef2d2fd1bac5a6951f5f32a3.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("../fonts/AmericanCaptain/a6bec1c4ef2d2fd1bac5a6951f5f32a3.woff2") format("woff2"), /* chrome、firefox */
+  url("../fonts/AmericanCaptain/a6bec1c4ef2d2fd1bac5a6951f5f32a3.woff") format("woff"), /* chrome、firefox */
+  url("../fonts/AmericanCaptain/a6bec1c4ef2d2fd1bac5a6951f5f32a3.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("../fonts/AmericanCaptain/a6bec1c4ef2d2fd1bac5a6951f5f32a3.svg#American Captain") format("svg");
+  /* iOS 4.1- */
+}
+
 
 @import 'themeColors';
 @import 'base';
