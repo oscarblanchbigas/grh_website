@@ -14,7 +14,9 @@
       <hr>
       <div class="container">
       {{ range $list.Data.Pages }}
-        {{$img := .Resources.GetMatch "**.png" }}
+        {{$original := .Resources.GetMatch "**.png" }}
+
+
         <div class="row" id="#">
           <div class="col-sm-3">
             <h3 class="{{.Params.color}}" >{{.Title}}</h3>
@@ -30,8 +32,9 @@
             </ul>
             <br>
           </div>
-          {{ if $img}}
-          <div class="col-sm-3"><a target="blank"><img src="{{ $img.RelPermalink }}" class="image-responsive"></div></a>
+          {{ if $original}}
+            {{$image := $original.Resize "200x" }}
+          <div class="col-sm-3"><a target="blank"><img src="{{ $image.RelPermalink }}" class="image-responsive"></div></a>
           {{ end }}
         </div>
       {{ end }}
