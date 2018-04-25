@@ -1,7 +1,7 @@
 <!-- Image-->
 {{ $color := (index ($.Page.Parent.Params.colors) 0) }}
 {{ $original := .Page.Resources.GetMatch (printf "%s*" (.Get "name")) }}
-{{ $image := $original.Resize "600x" }}
+{{ $image := $original.Resize "500x" }}
 <section class = "noSwipe">
   <div class = "container-fluid">
     <div class="row">
