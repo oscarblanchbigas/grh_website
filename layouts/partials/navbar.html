@@ -39,8 +39,9 @@
         </div>
       </li>
       {{ end }}
-        <p class="call-to-action location"> {{ printf "%s: %s  %s: %s / %s" (i18n "night") (substr .Dir -4 1) (i18n "page") (substr .Dir -2 1) (string $.Page.Parent.Params.pages)}}</p>
+        <p class="call-to-action location"> {{ printf "%s: %s" (i18n "night") (substr .Dir -4 1) }} {{printf "%s: %s / %s" (i18n "page") (substr .Dir -2 1) (string $.Page.Parent.Params.pages) }}</p>
       <!-- <p class="call-to-action location"> Noche: 1  Página: 1/6</p> -->
+
 
       {{ with .PrevInSection }}
       <li>
