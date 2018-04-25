@@ -16,7 +16,8 @@
 
     <link rel="stylesheet" type="text/css" href='{{ "css/style.css"  | absURL  }}' /> -->
     <link rel="stylesheet" type="text/css" href='{{ "css/main.bundle.css"  | absURL  }}' />
-
+    {{ block "scripts" . }}
+    {{ end }}
 
   </head>
   <body>
@@ -49,9 +50,6 @@
     </div>
 
     {{ block "footer" . }}
-    {{ end }}
-
-    {{ block "scripts" . }}
     {{ end }}
 
     {{ block "extrascripts" . }}
