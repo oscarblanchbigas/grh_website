@@ -1,5 +1,7 @@
 // https://jonathanmh.com/webpack-sass-scss-compiling-separate-file/
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
+const webpack = require("webpack");
+
 
 module.exports = {
   entry: ['./js/app.js', './sass/main.scss'],
@@ -60,5 +62,9 @@ module.exports = {
       filename: '../static/css/[name].bundle.css',
       allChunks: true,
     }),
+    new webpack.optimize.UglifyJsPlugin({
+      include: /\.js$/,
+      minimize: true
+    })
   ],
 };
