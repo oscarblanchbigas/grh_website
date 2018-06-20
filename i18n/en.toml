@@ -9,3 +9,6 @@ other = "Image Credit"
 
 [video_credit]
 other = "Video credit"
+
+[step]
+other = "Step"

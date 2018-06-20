@@ -1,0 +1,6 @@
+{{- $src := .Get "src" -}}
+<div class="col-sm-2 col-md-3">
+  <a href="{{ with .Get "link"}}{{.}}{{end}}" data-toggle="tooltip" data-placement="top" title="{{ with .Get "tooltip"}}{{.}}{{end}}">
+    <img src="{{$src|relURL}}" class="img-responsive">
+  </a>
+</div>

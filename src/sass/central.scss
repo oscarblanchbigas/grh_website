@@ -1,79 +1,73 @@
 .central {
-  background: #ffffff;
-  padding-top: 1%;
+  margin: 0;
+  background: $themeColor-White;
   padding-bottom: 50px;
-  top: 0;
   z-index: 100;
   -webkit-backface-visibility: hidden;
   overflow-x: hidden;
   overflow-y: scroll;
+  .header {
+    width: 100%;
+    padding: 2%;
+  }
+  .step {
+    min-height: 250px;
+    height: auto;
+    color: $themeColor-White;
+    background-image: url("../img/texture.png");
+    &.green {
+      background-color: $themeColor-Green;
+    }
+    &.blue {
+      background-color: $themeColor-Blue;
+    }
+    &.red {
+      background-color: $themeColor-Red;
+    }
+    &.yellow {
+      background-color: $themeColor-Yellow;
+    }
+    h1 {
+      color: $themeColor-Black;
+      font-family: "American Captain", sans-serif;
+      font-size: 60px;
+      font-style: normal;
+      line-height: 1.5;
+      letter-spacing: 2px;
+    }
+    h2 {
+      font-size: 25px;
+      letter-spacing: 0px;
+      font-weight: 400;
+    }
+    h3 {
+      font-size: 15px;
+      letter-spacing: 0px;
+      font-weight: 300;
+      position: absolute;
+      top: 50;
+      left: 500;
+      width: 100%;
+    }
+    img {
+      padding-top:20%;
+    }
+    img:hover {
+      opacity: 0.8;
+      filter: alpha(opacity=80);
+    }
+  }
 }
 
-.central .small-hr {
-  margin-top: 17px;
-  margin-bottom: 25px;
-}
 
-.central p, .central .address-detail a, .address-detail .central a {
-  padding-bottom: 25px;
-}
 
-.central .content-wrap {
-  height: 100%;
-}
 
-.central .logo {
-  padding-top: 2%;
-}
-
-.header {
-  width: 100%;
-  padding: 2%;
-}
-
-.step {
-  min-height: 100px;
-  padding-top: 2%;
-  padding-bottom: 2%;
-}
-
-.step .image {
-  position: relative;
-  width: 100%;
-  /* for IE 6 */
-}
 
 .central .tooltip-inner {
   padding: 10%;
   font-size: 15px;
   max-width: 1000px;
   width: 400px;
-}
-
-.step h1 {
-  font-family: "American Captain", sans-serif;
-  font-size: 60px;
-  font-style: normal;
-  line-height: 1.5;
-  letter-spacing: 2px;
-}
-
-.step h2 {
-  color: #ffffff;
-  font-size: 25px;
-  letter-spacing: 0px;
-  font-weight: 400;
-}
-
-.step h3 {
-  color: #ffffff;
-  font-size: 15px;
-  letter-spacing: 0px;
-  font-weight: 300;
-  position: absolute;
-  top: 50;
-  left: 500;
-  width: 100%;
 }
 
 .step_i h1 {
@@ -105,33 +99,4 @@
   top: 50;
   left: 500;
   width: 100%;
-}
-
-.step img:hover {
-  opacity: 0.8;
-  filter: alpha(opacity=80);
-}
-
-.step_1 {
-  background-color: #84a58b;
-  /*green*/
-  background-image: url("../img/textures7_1.png");
-}
-
-.step_2 {
-  background-color: #cfb064;
-  /*yellow*/
-  background-image: url("../img/textures7_2.png");
-}
-
-.step_3 {
-  background-color: #78a2ab;
-  /*blue*/
-  background-image: url("../img/textures7_3.png");
-}
-
-.step_4 {
-  background-color: #e68573;
-  /*red*/
-  background-image: url("../img/textures7_4.png");
 }

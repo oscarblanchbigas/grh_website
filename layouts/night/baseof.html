@@ -25,9 +25,32 @@
     {{ block "navbar" . }}
     {{ end }}
 
-    {{ block "main" . }}
-    {{ end }}
+    <div id="splitlayout" class="splitlayout reset-layout">
+      <div class="content">
+        <div class="side side-left">
+          {{ block "left" . }}
+          {{ end }}
+        </div>
 
+        <div class="side side-right">
+          {{ block "right" . }}
+          {{ end }}
+        </div>
+
+        <div class="page page-left">
+        {{ block "ultraleft" . }}
+        {{ end }}
+        </div>
+
+        <div class="page page-right">
+          {{ block "ultraright" . }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
+
+    {{ block "footer" . }}
+    {{ end }}
 
     {{ block "extrascripts" . }}
     {{ end }}

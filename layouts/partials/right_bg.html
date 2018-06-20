@@ -1,4 +1,4 @@
-{{ if ne .Params.right "notebook" }}current
+{{ if ne .Params.right "notebook" }}
 {{ $original := .Page.Resources.GetMatch "right_bg.jpg" }}
 {{ $image := $original.Resize "600x" }}
 <script>$(".side-right").css('background-image', 'url({{ $image.RelPermalink }})');</script>
