@@ -3,7 +3,6 @@
   background: $themeColor-White;
   padding-bottom: 50px;
   z-index: 100;
-  -webkit-backface-visibility: hidden;
   overflow-x: hidden;
   overflow-y: scroll;
   .header {
@@ -57,17 +56,12 @@
       filter: alpha(opacity=80);
     }
   }
-}
-
-
-
-
-
-.central .tooltip-inner {
-  padding: 10%;
-  font-size: 15px;
-  max-width: 1000px;
-  width: 400px;
+  .tooltip-inner {
+    padding: 10%;
+    font-size: 15px;
+    max-width: 1000px;
+    width: 400px;
+  }
 }
 
 .step_i h1 {

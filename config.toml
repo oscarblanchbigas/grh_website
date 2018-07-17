@@ -13,11 +13,8 @@ PygmentsCodefencesGuessSyntax = true
 
 #Notebooks Server
 [params]
-  [params.Notebooks]
-    1server = "https://mybinder.org/v2/gh/"
-    2git = "IFAE/grh_website/master"
-    3path ="?filepath=/notebooks/"
-
+  [params.Notebooks.colab]
+    urlPre = "https://colab.research.google.com/drive/"
 
 [languages]
 [languages.en]

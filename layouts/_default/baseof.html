@@ -32,5 +32,15 @@
     {{ block "extrascripts" . }}
     {{ end }}
 
+    <div class="page page-left">
+    {{ block "ultraleft" . }}
+    {{ end }}
+    </div>
+
+    <div class="page page-right">
+      {{ block "ultraright" . }}
+      {{ end }}
+    </div>
+
   </body>
 </html>
