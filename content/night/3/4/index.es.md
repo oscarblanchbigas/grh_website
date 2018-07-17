@@ -4,6 +4,7 @@ description = ""
 weight = 4
 type= "night"
 right = "notebook"
+notebook = "GRH_night_3_2_es.ipynb"
 +++
 
 {{< header_night title="Modelos, hipótesis y datos">}}

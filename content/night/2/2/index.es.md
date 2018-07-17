@@ -4,6 +4,7 @@ description = ""
 weight = 2
 type= "night"
 right = "notebook"
+notebook = "GRH_night_2_1_es.ipynb"
 +++
 
 {{< header_night title="¿Cuántos MAGIC caben en el cielo?">}}

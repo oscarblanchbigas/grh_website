@@ -1,4 +1,3 @@
-
 # La libreta científica de Quim
 Uff ... ahora que sé que alguien más va a leer esta libreta, tendré que intentar escribirla de forma que se entienda. La parte buena es que así cuando me la mire yo en un par de semanas quizás entienda algo.
 
@@ -30,8 +29,8 @@ len(perseus_ON)
 
 
 
-4 millones y medio de filas!! Eso ningún Excel lo puede abrir. Por suerte Python sí.  
-Y por qué cada vez cargamos más datos? Porque cada vez lo complicamos un poco.  
+4 millones y medio de filas!! Eso ningún Excel lo puede abrir. Por suerte Python sí.
+Y por qué cada vez cargamos más datos? Porque cada vez lo complicamos un poco.
 
 Alba os explicó como hacer el corte en hadronness. Pero ella ya tenía los datos un poco preparados. Se había quedado con sólo los que tienen un ** Theta Cuadrado ** menor que 0.4. No es mi caso, así que para tener un ** Thetaplot ** como el de Alba o Daniel necesito hacer también un corte en ** Theta Cuadrado ** además del de hadronness.
 
@@ -73,7 +72,7 @@ pl.show()
 ![png](night_3_3_es_files/night_3_3_es_7_0.png)
 
 
-Se parece al de Alba y Daniel, ¿no? Pero en realidad no es igual. ¿Has visto la diferencia? El mío está partido en más trocitos. Yo tengo 40 y ellos sólo tienen 30. Lo he hecho con el "bin=40" en la instrucción: 
+Se parece al de Alba y Daniel, ¿no? Pero en realidad no es igual. ¿Has visto la diferencia? El mío está partido en más trocitos. Yo tengo 40 y ellos sólo tienen 30. Lo he hecho con el "bin=40" en la instrucción:
 
 > pl.hist(CutHadOff.compressed(), bins=40, histtype='stepfilled', color='red', alpha=0.5, normed=False)
 

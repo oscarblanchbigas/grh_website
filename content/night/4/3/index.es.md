@@ -4,6 +4,7 @@ description = ""
 weight = 3
 type= "night"
 right = "notebook"
+notebook = "GRH_night_4_1_es.ipynb"
 +++
 
 {{< header_night title="Galaxia de núcleo activo">}}

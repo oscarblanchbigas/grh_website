@@ -4,6 +4,7 @@ description = ""
 weight = 4
 type= "night"
 right = "notebook"
+notebook = "GRH_night_1_2_es.ipynb"
 +++
 
 {{< header_night title="Cómo deshacerse del fondo">}}

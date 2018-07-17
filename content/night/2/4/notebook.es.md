@@ -1,5 +1,3 @@
-
-
 ```python
 import pandas as pd
 import matplotlib.pyplot as pl
@@ -18,7 +16,7 @@ Y con esto crea una variable **luna** que tiene toda información que hay en el 
 
 ![luna](screen_datos.png "luna")
 
-Hay 3 columnas y varias filas, Aquí solo vemos las 5 primeras.  
+Hay 3 columnas y varias filas, Aquí solo vemos las 5 primeras.
 Si queremos usar los datos de la **longitud de onda**, los encontramos aquí:
 > **luna.LongituOnda**
 
@@ -45,7 +43,7 @@ cygX1_OFF= pd.read_csv('data/EvtList_OFF_CygX3_1day.txt', sep=' ')
 
 Ahora sé que los valores de ** Theta cuadrado ** para mis datos ON y OFF los encuentro así:
 
-> **cygX1_ON.theta2  
+> **cygX1_ON.theta2
 > cygX1_OFF.theta2**
 
 
@@ -82,7 +80,7 @@ len(cygX1_ON)
 
 
 
-Más de 30 mil eventos detectados por el telescopio. Esto no es ningún juego!  
+Más de 30 mil eventos detectados por el telescopio. Esto no es ningún juego!
 Aunque mirar los datos así no sirve para mucho. Lo que tenemos que hacer es representarlos gráficamente.
 
 --------

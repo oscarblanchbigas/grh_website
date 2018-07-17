@@ -4,6 +4,7 @@ description = ""
 weight = 5
 type= "night"
 right = "notebook"
+notebook = "GRH_night_2_3_es.ipynb"
 +++
 
 {{< header_night title="¿Señal o fluctuación estadística?">}}

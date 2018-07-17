@@ -1,4 +1,3 @@
-
 # Desafiando a Einstein
 
 Albert Einstein dijo, la velocidad de la luz en el vacío es siempre la misma ... Mis rayos gamma de Mrk421 han viajado durante mucho tiempo por el vacío para llegar desde donde se generaron hasta la Tierra. Veamos si todos han ido a la misma velocidad. Como todos han recorrido la misma distancia, "solo" tengo que mirar si el tiempo entre que salieron de Mrk421 y llegaron a la tierra es el mismo para todos.
@@ -109,7 +108,7 @@ No sólo tenemos el ** Hadronness **, el ** Theta Cuadrado ** y el ** Tiempo ** 
 
 La mayoría (si no todas) de las teorías que predicen que la velocidad de la luz en el vacío no es siempre la misma, indican que esta velocidad depende de la energía de la luz, la energía de los ** rayos gamma **.
 
-Definamos dos intervalos de energía en nuestros datos: ** Bajas ** (Energía < 100 GeV) y ** Altas ** (Energía > 500 GeV). Para tener esto, hacemos lo mismo que hemos hecho para cortar en ** Theta Cuadrado ** o ** Hadronness **. 
+Definamos dos intervalos de energía en nuestros datos: ** Bajas ** (Energía < 100 GeV) y ** Altas ** (Energía > 500 GeV). Para tener esto, hacemos lo mismo que hemos hecho para cortar en ** Theta Cuadrado ** o ** Hadronness **.
 
 
 ```python
@@ -117,7 +116,7 @@ Definamos dos intervalos de energía en nuestros datos: ** Bajas ** (Energía < 
 cut_highE = 5000
 cut_lowE = 1000
 
-# 2 Seleccionamos los datos 
+# 2 Seleccionamos los datos
 #Alta Energia
 mrk421_ON_cut_highE =mrk421_ON_cut[mrk421_ON_cut['Energia']>cut_highE]
 mrk421_OFF_cut_highE =mrk421_OFF_cut[mrk421_OFF_cut['Energia']>cut_highE]
@@ -140,7 +139,7 @@ Ahora, en vez de usar 100 intervalos de timepo, usaremos 40.
 
 weights_high = np.ones_like(mrk421_OFF_cut_highE.theta2)*factor
 
-# 1 Calcular Non y Noff para cada intervalo de tiempo. 
+# 1 Calcular Non y Noff para cada intervalo de tiempo.
 # Definimos 40 intervalos (bins) en los 10000 segundos de nuestros datos
 bins = 40
 Non, tiempos_highE= np.histogram(mrk421_ON_cut_highE.Tiempo, bins=bins)
@@ -168,7 +167,7 @@ pl.show()
 
 weights_low = np.ones_like(mrk421_OFF_cut_lowE.theta2)*factor
 
-# 1 Calcular Non y Noff para cada intervalo de tiempo. 
+# 1 Calcular Non y Noff para cada intervalo de tiempo.
 # Definimos 40 intervalos (bins) en los 10000 segundos de nuestros datos
 bins =40
 Non, tiempos_lowE= np.histogram(mrk421_ON_cut_lowE.Tiempo, bins=bins)
@@ -210,7 +209,7 @@ ax1.set_ylabel('Numero de rayos Gamma, alta energia', color='r')
 ax2 = ax1.twinx()
 ax2.errorbar(tiempos_lowE[1:], Exceso_lowE, xerr=10000.0/(2.0*bins), yerr=Error_lowE, fmt='-ob', ecolor='blue')
 ax2.set_ylabel('Numero de rayos Gamma, baja energia', color='b')
-# La Light Curve para Alta Energía la he puesto en rojo (r de red) y 
+# La Light Curve para Alta Energía la he puesto en rojo (r de red) y
 # la de baja en azul (b de blue).
 # Hagamos lo mismo para los ejes, así queda claro qué es qué.
 for tl in ax1.get_yticklabels():
@@ -229,7 +228,7 @@ pl.show()
 Este flare esta lleno de cosas interesantes, parece claro que la cantidad de ** rayos gamma ** de Alta Energía (Rojo) aumentan después que lo hagan los de Baja Energía (Azul). ¿Quiere decir esto que Einstein estaba equivocado...?
 
 -----
-Nota:  
+Nota:
 Por cierto, para poder comparar mejor las dos ** Light Curve ** he dibujado una linea para unir los puntos. Lo hago con la "-" que pongo en "fmt='-or'" y "fmt='-ob'".
 
 -----
@@ -252,6 +251,3 @@ HTML("""
 <video width="600" height="600" controls="" autoplay="" loop="">
   <source src="data/animation_HighLow.mp4" type="video/mp4">
 </video>
-
-
-

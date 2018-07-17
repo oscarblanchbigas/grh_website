@@ -1,8 +1,10 @@
 
 {{ $right_path :=  printf "**.%s.md" .Lang }}
 {{ if eq .Params.right "notebook" }}
-  {{ $notebook_path := printf "%s%s" (delimit .Site.Params.notebooks "") .Params.notebook }}
-  <a href="{{ $notebook_path }}" type="button" id="notebookButton" class="btn btn-primary" target="blank">Entra</a>
+    {{ $dataJSON := getJSON "https://raw.githubusercontent.com/IFAE/grh_init/master/grh_data.json" }}
+    {{ $Notebook_id := index (index $dataJSON .Params.notebook) "Notebook_id" }}
+    {{ $notebook_path := printf "%s%s" (delimit .Site.Params.notebooks.colab "") $Notebook_id}}
+  <a href="{{ $notebook_path }}" type="button" id="notebookButton" class="btn btn-primary" target="_blank">Entra</a>
 {{ end }}
 {{ range .Resources.Match $right_path }}
   {{ .Content }}

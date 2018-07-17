@@ -1,5 +1,3 @@
-
-
 ```python
 import numpy as np
 import pandas as pd
@@ -115,7 +113,7 @@ Y sólo nos faltaría mostrar el gráfico 2D que queda después de haber hecho e
 
 
 ```python
-#Skymap de los datos seleccionados: 
+#Skymap de los datos seleccionados:
 hist_perseus, xedge, yedge = np.histogram2d(perseus_ON_cut.XCam, perseus_ON_cut.YCam, bins=71)
 hist_off, xedge, yedge = np.histogram2d(perseus_OFF_cut.XCam, perseus_OFF_cut.YCam, bins=71)
 img1 = ndimage.gaussian_filter(hist_off, sigma=(5, 2), order=0)

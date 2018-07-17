@@ -4,6 +4,7 @@ description = ""
 weight = 5
 type= "night"
 right = "notebook"
+notebook = "GRH_night_4_2_es.ipynb"
 +++
 
 {{< header_night title="Luz que se retrasa">}}

@@ -1,9 +1,3 @@
-+++
-title = "Notebook 1-4"
-description = ""
-notebook = "night_1_4.ipynb"
-+++
-
 ```python
 %matplotlib inline
 from noche1_4 import *

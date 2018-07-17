@@ -1,4 +1,3 @@
-
 # La libreta científica de Alba
 Esta es mi **libreta científica**. Aquí voy apuntando todo lo que hago ... es importante apuntarlo todo, como mínimo para mi ya que si no después no recuedo todo lo que he hecho.
 
@@ -43,7 +42,7 @@ Sí, sí ... la Tierra está en el centro del universo visible desde la Tierra, 
 
 Ahora me falta calcular el tamaño del trozo de cielo que se puede mirar con MAGIC. Sé que en grados son 2 grados por 2 grados, es decir 4 grados cuadrado. Pero tengo que convertirlo en estereorradianes.
 
-Por suerte desde el instituto que me explican con la trigonometría que 180 grados son Pi radianes. 
+Por suerte desde el instituto que me explican con la trigonometría que 180 grados son Pi radianes.
 
 
 ```python

@@ -1,9 +1,3 @@
-+++
-title = "Notebook 4-1"
-description = ""
-notebook = "night_4_3.ipynb"
-+++
-
 # La libreta científica de Leyre
 
 Seguro que después de pasar una noche con Daniel, Alba y Quim, ya eres un experto en esto de analizar datos y de programar con python. Y seguramente mucho de lo que hay en mi libreta ya lo sabes hacer sin ayuda. ¡Pero espero poder enseñarte aún alguna cosa nueva!

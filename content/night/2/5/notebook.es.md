@@ -1,4 +1,3 @@
-
 # La maldición de las 3 sigmas
 
 A ver si vemos qué quieren decir las 2.7 sigmas que hemos conseguido.
@@ -45,7 +44,7 @@ VecesAcumuladas = np.cumsum(Veces)
 # que cualquier valor. Primero calculo la probabilidad para cada unos de los valores
 # de sigma en el gráfico
 Probabilidad = 1.0-VecesAcumuladas/(VecesAcumuladas.max())
-# Y finalmente uso un bucle (for x in range(0.100)) para el cual x va cambiando de 
+# Y finalmente uso un bucle (for x in range(0.100)) para el cual x va cambiando de
 # valor desde 0 hasta 100 y miro cuando el valor de la significancia es mayor que 2.68
 # y allí tendré mi probabilidad:
 for x in range(0,100):

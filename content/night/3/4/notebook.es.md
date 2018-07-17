@@ -1,4 +1,3 @@
-
 # La esperanza no está perdida ... el lado oscuro aún puede estar ahí
 
 Veamos qué quiere decir que no vea señal de rayos gamma cuando observo el clúster de Perseus. Eso no significa que no nos lleguen, solo que, si nos llegan, lo hace una cantidad menor que un cierto número. ¡Veámoslo!
@@ -68,7 +67,7 @@ NumeroRayosGamma( 1000, 0.2 )
 
 De hecho, antes vimos que si cuento eventos en las dos primeras divisiones de mi ** Thetaplot **, tengo:
 
-> Eventos ON = 18477.0  
+> Eventos ON = 18477.0
 > Eventos OFF = 18338.0
 
 Como tengo 40 divisiones en ** Theta Cuadrado ** entre 0 y 0.40, eso quire decir que las dos primeras divisiones cubren 0.02 grados cuadrados en theta cuadrado, que se traduce en raiz cuadrada de 0.02 (0.1414) grados. Por tanto para una normalización de 1000 esperamos que nos lleguen
@@ -175,7 +174,7 @@ VecesAcumuladas = np.cumsum(veces)
 Probabilidad = 1.0-VecesAcumuladas/(VecesAcumuladas.max())
 for x in range(0,100):
         if excesos[x] > (18477.0-18338):
-                print ("La Probabilidad de tener más de ", 18477.0-18338, "eventos es: ", Probabilidad[x]*100, "%, cuando esperamos ", test, "rayos gamma, que se obtienen con N0 = ",10000) 
+                print ("La Probabilidad de tener más de ", 18477.0-18338, "eventos es: ", Probabilidad[x]*100, "%, cuando esperamos ", test, "rayos gamma, que se obtienen con N0 = ",10000)
                 break
 ```
 

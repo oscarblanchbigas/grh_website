@@ -4,6 +4,7 @@ description = ""
 weight = 4
 type= "night"
 right = "notebook"
+notebook = "GRH_night_2_2_es.ipynb"
 +++
 
 {{< header_night title="Separar el grano de la paja">}}
@@ -33,7 +34,7 @@ Sigue ahora mi libreta de la derecha para ver cómo haciendo un corte en hadrone
 Esto es física experimental, Alba. Necesitamos datos, muchos datos, para demostrar algo.
 
 _-¿Cómo sabes que eso que ves no es ruido?_
-  
+
 _-¿Cómo sabes que es realmente Cyg-X1 y no solo tus ganas de haberlo cazado?_
 
 _-Mantén la calma, espera a que lleguen más datos y **analízalos**._

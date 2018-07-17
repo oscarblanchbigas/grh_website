@@ -1,4 +1,3 @@
-
 # Miremos todos los datos
 
 Una vez más ... ya sabes como empezamos, ¿no?
@@ -87,7 +86,7 @@ Con más de ochenta mil filas, lo mejor que podemos hacer es representar los dat
 
 1. Definimos la variable **had_cut = 0.20**
 2. Seleccionamos únicamente las filas que tiene **hadroness < had_cut** y las guardamos con el nombre **CygX1_ON_cut**:
-> **cygX1_ON_cut = cygX1_ON[cygX1_ON['had'] < had_cut]**  
+> **cygX1_ON_cut = cygX1_ON[cygX1_ON['had'] < had_cut]**
 > CygX1_ON_cut tiene menos filas que CygX1_ON, pero el mismo número de columnas. Sabrías comporbarlo?
 3. Hago el ** Theta Plot ** igual que sin el corte en hadronnes pero ahora usamos **CygX1_ON_cut.theta2**
 4. Y lo mismo para el OFF, así la comparación tiene sentido.
@@ -121,7 +120,7 @@ CalcularSignificancia(Non, Noff)
 
 
 
-Cierto, he hecho algo diferente. Delante de la instrucción : 
+Cierto, he hecho algo diferente. Delante de la instrucción :
 > "pl.hist(CutHad.compressed(), bins=30, histtype='step', color = 'blue',alpha=0.9, normed=False)"
 
 he puesto:

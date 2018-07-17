@@ -1,9 +1,3 @@
-+++
-title = "Notebook 1-2"
-description = ""
-notebook = "night_1_2.ipynb"
-+++
-
 # La libreta científica de Daniel
 Esta es mi **libreta científica**. Aquí puedo ver los **datos** de los telescopios, hacer **cálculos** y **anotaciones**. Es una herramienta más de los Cazadores de Rayos Gamma. Todos los azadores tenemos la nuestra y tu tienes la tuya en ** Tu Noche **.
 
