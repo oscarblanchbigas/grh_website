@@ -1,6 +1,6 @@
 baseURL = "https://ifaews01.pic.es/grh"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Cazadores de Rayos Gamma"
 
 defaultContentLanguage = "es"
 defaultContentLanguageInSubdir= true
@@ -10,6 +10,9 @@ PygmentsCodeFences = true
 PygmentsStyle = "manni"
 PygmentsCodefencesGuessSyntax = true
 #https://help.farbox.com/pygments.html
+
+#DisqusShortname
+disqusShortname = "CAZADORES"
 
 #Notebooks Server
 [params]

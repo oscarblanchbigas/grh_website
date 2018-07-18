@@ -6,4 +6,5 @@ hunter = "alba"
 pages = 7
 weight = 2
 slug = ""
+disqus = 2
 +++

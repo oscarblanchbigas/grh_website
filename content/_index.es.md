@@ -1,6 +1,7 @@
 +++
 title = "Home"
 description = ""
+disqus = "generic"
 +++
 {{< banner color="green" step="1" title="¿Qué necesitas para ser un auténtico cazador de rayos gamma?">}}
   {{< hexagonbutton src="/img/isotip_bomb.png" link="info" tooltip= "Entra y descubre quiénes son los Cazadores de rayos Gamma, a qué se dedican y cómo puedes convertirte en un uno - seguramente lo mejor que te va a pasar en tiempo">}}

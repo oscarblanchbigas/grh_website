@@ -1,11 +1,19 @@
-- SASS nav
-- SASS ultra-left
-- syntax highlighting /notebook look
-- night 1 notebooks
-- button
-- font management
-- integrate component2
-- image processing to reduce size
+Disqus  -- done
+About
+Info
+your night
+your night 2016
+send results
+tooltips homepage
+javascript error
+
+git treemodule
+
+quizzes!
+
+
+
+
 - responsive??
 
 
@@ -13,37 +21,16 @@
 
 
 
-
-
-
-https://github.com/knowsuchagency/hugo_jupyter
-https://github.com/naoina/hugo-jupyter-handler
-http://journalpanic.com/post/blogging-with-hugo-and-jupyter-notebooks/
-https://sharmamohit.com/post/jupyter-notebooks-in-blog/
-https://sharmamohit.com/css/jupyter.css
-https://sadanand-singh.github.io/posts/nikola2hugo/#jupyter-notebooks-as-posts
-
-http://prismjs.com/
-
-
 typeform
 
 https://piazza.com/product/overview
-
 https://www.acadly.com/features.html
 https://tophat.com/
 https://prulu.com/
-
 https://www.glisser.com/features/audience-qa/
-
 https://www.onlineexambuilder.com/
-
 https://kahoot.com/
-
 https://www.showbie.com/
 https://www.easyclass.com/
-
-
-
 https://bubbl.us/
 https://cacoo.com/

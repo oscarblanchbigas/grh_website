@@ -1,0 +1,35 @@
+<div class="page page-right">
+  <div  class="page-inner full-height">
+    <div class="header">
+      <img src={{"/img/logo_es.png"| relURL}} class="img-responsive center-block" width="400">
+    </div>
+    <div class="container-fluid detail-info">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-11" class="comments">
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+
+          var disqus_config = function () {
+
+
+          {{ if eq .Params.type "night" }}
+            this.page.identifier = {{$.Page.Parent.Params.disqus}};
+          {{ else }}
+            this.page.identifier = 0;
+          {{ end }}
+
+            };
+            (function() {
+              if (window.location.hostname == "localhost")
+                 return;
+            var d = document, s = d.createElement('script');
+            var disqus_shortname = '{{ .Site.DisqusShortname }}';
+            s.src = '//' + disqus_shortname +'.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+            })();
+        </script>
+      </div>
+    </div>
+</div>
+</div>
