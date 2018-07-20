@@ -1,7 +1,8 @@
+{{ $right_path :=  printf "**.%s.md" .Lang }}
 <div  class="page-inner full-height">
   <div class="container align-center detail-info">
     <div class="header">
-      <img src={{"/img/isotip_blue.png"| relURL}} width="100" class="center-block">
+      <img src={{"/img/logo_es.png"| relURL}} width="100" class="center-block">
     </div>
     <hr>
     <div class="container">
@@ -13,6 +14,10 @@
         <div class="col-sm-6">
           <h4>{{.Description}}</h4>
           <p>{{.Content}}</p>
+          {{ $extra := .Resources.GetMatch "extra.md"}}
+          {{ if $extra }}
+            {{ $extra.Content }}
+          {{ end }}
         </div>
       </div>
       {{ end }}

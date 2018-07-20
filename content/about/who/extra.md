@@ -2,19 +2,19 @@
    <div class="col-md-4 col-xs-0">
    </div>
    <div class="col-md-2 col-xs-3">
-      <img src="/static/img/blanch.png" class="image-responsive" width="100">
+      <img src="blanch.png" class="image-responsive" width="100">
      <br>
    </div>
    <div class="col-md-2 col-xs-3">
-      <img src="/static/img/sebastian.png" class="image-responsive" width="100">
+      <img src="sebastian.png" class="image-responsive" width="100">
      <br>
    </div>
    <div class="col-md-2 col-xs-3">
-      <img src="/static/img/alicia.png" class="image-responsive" width="100">
+      <img src="alicia.png" class="image-responsive" width="100">
      <br>
    </div>
    <div class="col-md-2 col-xs-3">
-      <img src="/static/img/javi_lopez.jpg" class="image-responsive" width="100">
+      <img src="javi_lopez.jpg" class="image-responsive" width="100">
      <br>
    </div>
  </div>
@@ -48,19 +48,19 @@
    <div class="col-md-4 col-xs-0">
    </div>
    <div class="col-md-2 col-xs-3">
-      <img src="/static/img/daniel.png" class="image-responsive" width="100">
+      <img src="daniel.png" class="image-responsive" width="100">
      <br>
    </div>
    <div class="col-md-2 col-xs-3">
-      <img src="/static/img/alba.png" class="image-responsive" width="100">
+      <img src="alba.png" class="image-responsive" width="100">
      <br>
    </div>
    <div class="col-md-2 col-xs-3">
-      <img src="/static/img/quim.png" class="image-responsive" width="100">
+      <img src="quim.png" class="image-responsive" width="100">
      <br>
    </div>
    <div class="col-md-2 col-xs-3">
-      <img src="/static/img/leyre.png" class="image-responsive" width="100">
+      <img src="leyre.png" class="image-responsive" width="100">
      <br>
    </div>
    </div>
@@ -94,19 +94,19 @@
    <div class="col-md-4 col-xs-0">
    </div>
    <div class="col-md-2 col-xs-3">
-      <img src="/static/img/delvillar.png" class="image-responsive" width="100">
+      <img src="delvillar.png" class="image-responsive" width="100">
      <br>
    </div>
    <div class="col-md-2 col-xs-3">
-      <img src="/static/img/oscar_mart.png" class="image-responsive" width="100">
+      <img src="oscar_mart.png" class="image-responsive" width="100">
      <br>
    </div>
    <div class="col-md-2 col-xs-3">
-      <img src="/static/img/armando.png" class="image-responsive" width="100">
+      <img src="armando.png" class="image-responsive" width="100">
      <br>
    </div>
    <div class="col-md-2 col-xs-3">
-      <img src="/static/img/adiv.png" class="image-responsive" width="100">
+      <img src="adiv.png" class="image-responsive" width="100">
      <br>
    </div>
    </div>
