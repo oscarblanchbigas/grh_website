@@ -1,8 +1,0 @@
-{{ define "title"}}{{ .Params.title }} | {{ .Site.Title}} {{end}}
-
-{{ define "left"}}
-<p>{{.Params.links}}</p>
-{{ range $k, $v := .Params.links}}
-  <p>$v</p>
-{{end}}
-{{ end }}

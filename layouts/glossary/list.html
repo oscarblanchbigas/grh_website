@@ -1,9 +1,0 @@
-{{ define "title"}}{{ .Params.title }} | {{ .Site.Title}} {{end}}
-
-{{ define "left"}}
-  {{$list := .Data.Pages}}
-    {{ range $list }}
-  <p>{{ .Title }}</p>
-  {{ end }}
-
-{{ end }}

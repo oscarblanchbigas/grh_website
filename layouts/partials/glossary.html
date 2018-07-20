@@ -1,10 +1,13 @@
 {{$list := .Site.GetPage "section" "glossary"}}
 
+
+
 <!--Glossary Section-->
 <div class="page page-left">
     <div class="container-fluid detail-info">
       <div class="row">
         <div class="col-sm-1 col-sm-offset-1">
+          {{$list.Data}}
           <img src={{"/img/isotip_blue.png"| relURL}} width="100" class="center-block">
         </div>
         <div class="col-sm-8 col-md-offset-1">

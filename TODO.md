@@ -6,6 +6,7 @@ your night 2016
 send results
 tooltips homepage
 javascript error
+disqus errors (should we use hugos template?)
 
 git treemodule
 
