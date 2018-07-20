@@ -1,5 +1,21 @@
 <div  class="page-inner full-height">
   <div class="container align-center detail-info">
-    <h1>this is about</h1>
+    <div class="header">
+      <img src={{"/img/isotip_blue.png"| relURL}} width="100" class="center-block">
+    </div>
+    <hr>
+    <div class="container">
+      {{ range where .Pages "Section" "about" }}
+      <div class="row" id="#">
+        <div class="col-sm-3">
+          <h3 class="{{.Params.color}}" >{{.Title}}</h3>
+        </div>
+        <div class="col-sm-6">
+          <h4>{{.Description}}</h4>
+          <p>{{.Content}}</p>
+        </div>
+      </div>
+      {{ end }}
+    </div>
   </div>
 </div>
