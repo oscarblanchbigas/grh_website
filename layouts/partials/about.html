@@ -6,7 +6,8 @@
     </div>
     <hr>
     <div class="container">
-      {{ range where .Pages "Section" "about" }}
+  
+      {{ range where .Site.RegularPages "Section" "about" }}
       <div class="row" id="#">
         <div class="col-sm-3">
           <h3 class="{{.Params.color}}" >{{.Title}}</h3>

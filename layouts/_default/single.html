@@ -1,0 +1,24 @@
+{{ define "title"}}{{ .Params.title }} | {{ .Site.Title}} {{end}}
+
+{{ define "scripts"}}
+    {{ partial "javascripts" }}
+{{ end }}
+
+{{ define "navbar"}}
+  {{ partial "navbar" .}}
+{{ end }}
+
+{{ define "main" }}
+  <div class="side2 central">
+    <h1>Patata</h1>
+    {{ .Content }}
+  </div>
+{{ end }}
+
+{{ define "ultraleft"}}
+    {{ partial "about" .}}
+{{ end }}
+
+{{ define "ultraright"}}
+    {{ partial "disqus" .}}
+{{ end }}

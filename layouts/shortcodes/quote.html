@@ -1,7 +1,15 @@
 <!-- Quote-->
 {{ $color := (index ($.Page.Parent.Params.colors) 1) }}
-{{ $hunter := $.Page.Parent.Params.hunter}}
-{{ $image_path :=  printf "/img/avatarhex_%s.png" $hunter }}
+
+{{ $.Scratch.Set "hunter" "" }}
+{{ if isset .Params "hunter" }}
+  {{ $.Scratch.Set "hunter" (.Get "hunter") }}
+{{else}}
+  {{ $.Scratch.Set "hunter" $.Page.Parent.Params.hunter}}
+{{end}}
+
+{{ $image_path := (printf "/img/avatarhex_%s.png" ($.Scratch.Get "hunter")) }}
+
 <section class = "quote noSwipe">
   <div class = "container-fluid {{ $color }}">
     <div class="row">

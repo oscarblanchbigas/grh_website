@@ -1,6 +1,15 @@
 <!--Intro Cazador-->
-{{ $hunter := $.Page.Parent.Params.hunter}}
-{{ $image_path :=  printf "/img/avatar_%s.png" $hunter }}
+{{ $.Scratch.Set "image_path" "" }}
+
+{{ if isset .Params "image" }}
+  {{ $.Scratch.Set "image_path" (printf "/img/%s.png" (.Get "image")) }}
+{{else}}
+  {{ $hunter := $.Page.Parent.Params.hunter}}
+  {{ $.Scratch.Set "image_path" (printf "/img/avatar_%s.png" $hunter) }}
+{{end}}
+
+{{$image_path := $.Scratch.Get "image_path"}}
+
 <section class ="intro_hunter noSwipe">
   <div class = "container-fluid">
     <div class="row">
