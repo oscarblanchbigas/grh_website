@@ -1,43 +1,39 @@
 <div class="row">
-   <div class="col-md-4 col-xs-0">
-   </div>
-   <div class="col-md-2 col-xs-3">
-      <img src="blanch.png" class="image-responsive" width="100">
+   <div class="col-md-3 col-xs-4">
+      <img src="/grh/img/people/blanch.png" class="image-responsive" width="100">
      <br>
    </div>
-   <div class="col-md-2 col-xs-3">
-      <img src="sebastian.png" class="image-responsive" width="100">
+   <div class="col-md-3 col-xs-4">
+      <img src="/grh/img/people/sebastian.png" class="image-responsive" width="100">
      <br>
    </div>
-   <div class="col-md-2 col-xs-3">
-      <img src="alicia.png" class="image-responsive" width="100">
+   <div class="col-md-3 col-xs-4">
+      <img src="/grh/img/people/alicia.png" class="image-responsive" width="100">
      <br>
    </div>
-   <div class="col-md-2 col-xs-3">
-      <img src="javi_lopez.jpg" class="image-responsive" width="100">
+   <div class="col-md-3 col-xs-4">
+      <img src="/grh/img/people/javi_lopez.jpg" class="image-responsive" width="100">
      <br>
    </div>
  </div>
 
  <div class="row">
-   <div class="col-md-4 col-xs-0">
-   </div>
-   <div class="col-md-2 col-xs-3">
+   <div class="col-md-3 col-xs-4">
      <p class="tagline">Òscar Blanch</p>
      <p class="description">Investigador IFAE</p>
      <br>
    </div>
-   <div class="col-md-2 col-xs-3">
+   <div class="col-md-3 col-xs-4">
      <p class="tagline">Sebastián <br>Grinschpun</p>
      <p class="description">Comunicación IFAE</p>
      <br>
    </div>
-   <div class="col-md-2 col-xs-3">
+   <div class="col-md-3 col-xs-4">
      <p class="tagline">Alícia Labián</p>
      <p class="description">Comunicación IFAE</p>
      <br>
    </div>
-   <div class="col-md-2 col-xs-3">
+   <div class="col-md-3 col-xs-4">
      <p class="tagline">Javi López</p>
      <p class="description">Desarrollador</p>
      <br>
@@ -45,45 +41,41 @@
    </div>
 
    <div class="row">
-   <div class="col-md-4 col-xs-0">
-   </div>
-   <div class="col-md-2 col-xs-3">
-      <img src="daniel.png" class="image-responsive" width="100">
+   <div class="col-md-3 col-xs-4">
+      <img src="/grh/img/people/daniel.png" class="image-responsive" width="100">
      <br>
    </div>
-   <div class="col-md-2 col-xs-3">
-      <img src="alba.png" class="image-responsive" width="100">
+   <div class="col-md-3 col-xs-4">
+      <img src="/grh/img/people/alba.png" class="image-responsive" width="100">
      <br>
    </div>
-   <div class="col-md-2 col-xs-3">
-      <img src="quim.png" class="image-responsive" width="100">
+   <div class="col-md-3 col-xs-4">
+      <img src="/grh/img/people/quim.png" class="image-responsive" width="100">
      <br>
    </div>
-   <div class="col-md-2 col-xs-3">
-      <img src="leyre.png" class="image-responsive" width="100">
+   <div class="col-md-3 col-xs-4">
+      <img src="/grh/img/people/leyre.png" class="image-responsive" width="100">
      <br>
    </div>
    </div>
 
  <div class="row">
-   <div class="col-md-4 col-xs-0">
-   </div>
-   <div class="col-md-2 col-xs-3">
+   <div class="col-md-3 col-xs-4">
      <p class="tagline">Daniel Guberman</p>
      <p class="description">Estudiante PhD</p>
      <br>
    </div>
-   <div class="col-md-2 col-xs-3">
+   <div class="col-md-3 col-xs-4">
      <p class="tagline">Alba Fernández</p>
      <p class="description">Estudiante PhD</p>
      <br>
    </div>
-   <div class="col-md-2 col-xs-3">
+   <div class="col-md-3 col-xs-4">
      <p class="tagline">Quim Palacio</p>
      <p class="description">Estudiante PhD</p>
      <br>
    </div>
-   <div class="col-md-2 col-xs-3">
+   <div class="col-md-3 col-xs-4">
      <p class="tagline">Leyre Nogués</p>
      <p class="description">Estudiante PhD</p>
      <br>
@@ -91,45 +83,41 @@
    </div>
 
    <div class="row">
-   <div class="col-md-4 col-xs-0">
-   </div>
-   <div class="col-md-2 col-xs-3">
-      <img src="delvillar.png" class="image-responsive" width="100">
+   <div class="col-md-3 col-xs-4">
+      <img src="/grh/img/people/delvillar.png" class="image-responsive" width="100">
      <br>
    </div>
-   <div class="col-md-2 col-xs-3">
-      <img src="oscar_mart.png" class="image-responsive" width="100">
+   <div class="col-md-3 col-xs-4">
+      <img src="/grh/img/people/oscar_mart.png" class="image-responsive" width="100">
      <br>
    </div>
-   <div class="col-md-2 col-xs-3">
-      <img src="armando.png" class="image-responsive" width="100">
+   <div class="col-md-3 col-xs-4">
+      <img src="/grh/img/people/armando.png" class="image-responsive" width="100">
      <br>
    </div>
-   <div class="col-md-2 col-xs-3">
-      <img src="adiv.png" class="image-responsive" width="100">
+   <div class="col-md-3 col-xs-4">
+      <img src="/grh/img/people/adiv.png" class="image-responsive" width="100">
      <br>
    </div>
    </div>
 
  <div class="row">
-   <div class="col-md-4 col-xs-0">
-   </div>
-   <div class="col-md-2 col-xs-3">
+   <div class="col-md-3 col-xs-4">
      <p class="tagline">Maria del Villar</p>
      <p class="description">Diseñadora</p>
      <br>
    </div>
-   <div class="col-md-2 col-xs-3">
+   <div class="col-md-3 col-xs-4">
      <p class="tagline">Oscar Martínez</p>
      <p class="description">Técnico IFAE</p>
      <br>
    </div>
-   <div class="col-md-2 col-xs-3">
+   <div class="col-md-3 col-xs-4">
      <p class="tagline">Armando Quispe</p>
      <p class="description">Técnico IFAE</p>
      <br>
    </div>
-   <div class="col-md-2 col-xs-3">
+   <div class="col-md-3 col-xs-4">
      <p class="tagline">Adiv González Muñoz</p>
      <p class="description">Video time-lapse</p>
      <br>

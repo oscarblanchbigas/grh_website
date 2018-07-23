@@ -2,7 +2,7 @@
 <div  class="page-inner full-height">
   <div class="container align-center detail-info">
     <div class="header">
-      <img src={{"/img/logo_es.png"| relURL}} width="100" class="center-block">
+      <img src={{"/img/logo_es.png"| relURL}} width="300" class="center-block">
     </div>
     <hr>
     <div class="container">
@@ -11,8 +11,9 @@
         <div class="col-sm-3">
           <h3 class="{{.Params.color}}" >{{.Title}}</h3>
         </div>
-        <div class="col-sm-6">
+        <div class="col-sm-8">
           <h4>{{.Description}}</h4>
+          <hr>
           <p>{{.Content}}</p>
           {{ $extra := .Resources.GetMatch "extra.md"}}
           {{ if $extra }}
@@ -20,6 +21,7 @@
           {{ end }}
         </div>
       </div>
+      <br>
       {{ end }}
     </div>
   </div>

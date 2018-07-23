@@ -4,46 +4,38 @@ color = "red"
 weight = 8
 +++
 
-Dirección
-
-
-Coordinación, Edición y Producción
-
-
-Desarrollo Web
-
-
-Diseño Original
-
-
-Música Original
-
-
-Edición de Vídeo
-
-
-Actores
+**Dirección**
 
 Òscar Blanch
 
+**Coordinación, Edición y Producción**
 
-Sebastián Grinschpun
-Alícia Labián
+Sebastián Grinschpun, Alícia Labián
 
+**Desarrollo Web**
 
+Sebastián Grinschpun,
 Javier López
 
+
+**Diseño Original**
 
 Maria del Villar
 
 
+**Música Original**
+
 Óscar Martínez
 
+
+**Edición de Vídeo**
 
 Armando Quispe
 
 
-Daniel Guberman
-Alba Fernández
-Leyre Nogués
+**Actores**
+
+Daniel Guberman,
+Alba Fernández,
+Leyre Nogués, 
 Quim Palacio
