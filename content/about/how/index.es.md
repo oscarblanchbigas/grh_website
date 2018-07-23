@@ -1,8 +1,8 @@
 +++
 title = "¿Cómo lo hemos hecho?"
-description = "Cuantos más, ¡mejor!"
+description = "Software científico y herramientas de colaboración"
 color = "red"
 weight = 4
 +++
 
-Cazadores es la integración de varios softwares open source diferentes que, unidos, han dado lugar a una potente herramienta de divulgación científica.
+Cazadores integra tecnologías web con el entorno de programación en la nube de **Google Colab**. Usamos **Python** y varias librerías que los científicos usan habitualmente para analizar los datos. Todas estas tecnologías unidas convierten a Cazadores en una potente herramienta educativa y de divulgación científica.
