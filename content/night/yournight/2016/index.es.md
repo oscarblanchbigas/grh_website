@@ -7,7 +7,7 @@ right = "notebook"
 notebook = "GRH_yournight_2016_es.ipynb"
 +++
 {{< title
-    title="Tu gran noche"
+    title="El reto de 2016"
     subtitle="Una peonza en el cangrejo" >}}
 
 {{< intro
