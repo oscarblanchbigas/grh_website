@@ -1,5 +1,5 @@
 +++
 title = "Glossary"
 description =""
-slug="glossary"
+slug="glossari"
 +++
