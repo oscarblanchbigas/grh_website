@@ -6,7 +6,7 @@
           <img src={{"/img/isotip_blue.png"| relURL}} width="100" class="center-block">
         </div>
         <div class="col-sm-8 col-md-offset-1">
-          <h2>Diccionario de un buen cazador</h2>
+          <h2>{{i18n "glossary"}}</h2>
         </div>
       </div>
       <hr>
@@ -20,7 +20,7 @@
           <div class="col-sm-6">
             <h4>{{.Description}}</h4>
             <p>{{.Content}}</p>
-            <p><strong>Descubre más: </strong></p>
+            <p><strong>{{i18n "discover"}}: </strong></p>
             <ul class="fa-ul">
             {{ range $k, $v := .Params.links}}
               <li><i class="fa-li fa fa-external-link"></i><a href="{{index $v 1}}" target="_blank">@ {{index $v 0}}</a></li>
