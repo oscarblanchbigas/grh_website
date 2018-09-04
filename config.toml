@@ -23,28 +23,24 @@ disqusShortname = "CAZADORES"
 [languages.en]
 title = "Gamma Ray Hunters"
 weight = 1
-
-[languages.en.params]
-
 [[languages.en.menu.main]]
 identifier = "home"
 name = "home"
 url = "/"
 weight = 1
-
-
 [languages.es]
-copyright = ""
 title = "Cazadores de Rayos Gamma"
 weight = 2
-[languages.es.params]
-linkedin = "lien-francais"
-[languages.es.params.navigation]
-help  = "Aide"
 [[languages.es.menu.main]]
 identifier = "inicio"
 name = "inicio"
 url = "/"
 weight = 1
-
 [languages.ca]
+title = "Caçadors de Raigs Gamma"
+weight = 3
+[[languages.ca.menu.main]]
+identifier = "inici"
+name = "inici"
+url = "/"
+weight = 1
