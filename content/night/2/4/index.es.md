@@ -25,7 +25,8 @@ En realidad no sabemos a ciencia cierta si lo que detectamos es un rayo gamma u 
 En el momento de hacer el thetaplot debemos asegurarnos que estamos representando los eventos con hadroness pequeño, ya que somos cazadores de **rayos gamma**, ¿no? Así que nos quitamos de encima los protones.
 
 {{< quote
-    text="Os voy a confesar algo: los datos que usamos al detectar los rayos gamma de Cas A durante mi noche ya tenían el corte en hadroness hecho. No os lo dije para que no os llegara todo de golpe pero ya habíamos sacado el grano de la paja." >}}
+    text="Os voy a confesar algo: los datos que usamos al detectar los rayos gamma de Cas A durante mi noche ya tenían el corte en hadroness hecho. No os lo dije para que no os llegara todo de golpe pero ya habíamos sacado el grano de la paja."
+    hunter="daniel"  >}}
 
 Sigue ahora mi libreta de la derecha para ver cómo haciendo un corte en hadroness conseguimos ver señal.... ¿o no?
 
