@@ -1,5 +1,5 @@
 +++
-title = "Pointing with the telescopes"
+title = "Apuntant els telescopis"
 description = ""
 colors = ["green", "yellow"]
 hunter = "daniel"

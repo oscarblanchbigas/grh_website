@@ -48,3 +48,14 @@ url = "/"
 weight = 1
 
 [languages.ca]
+title = "Cazadors de Raigs Gamma"
+weight = 3
+
+[languages.ca.params]
+
+[[languages.ca.menu.main]]
+identifier = "inici"
+name = "inici"
+url = "/"
+weight = 1
+
