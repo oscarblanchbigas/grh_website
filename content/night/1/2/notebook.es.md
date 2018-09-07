@@ -1,5 +1,5 @@
 # La libreta científica de Daniel
-Esta es mi **libreta científica**. Aquí puedo ver los **datos** de los telescopios, hacer **cálculos** y **anotaciones**. Es una herramienta más de los Cazadores de Rayos Gamma. Todos los azadores tenemos la nuestra y tu tienes la tuya en ** Tu Noche **.
+Esta es mi **libreta científica**. Aquí puedo ver los **datos** de los telescopios, hacer **cálculos** y **anotaciones**. Es una herramienta más de los Cazadores de Rayos Gamma. Todos los Cazadores tenemos la nuestra y tu tienes la tuya en ** Tu Noche **.
 
 Lo mejor es entender cómo funciona con un ejemplo. Así que vamos a calcular si los filtros que hemos diseñado son los adecuados o no.
 
@@ -12,7 +12,7 @@ Tenemos 3 conjuntos de datos.
 Cada fichero nos muestra la información por longitud de onda.
 
 **¡ATENCIÓN!** Recuerda que para ejecutar el código que hay en cada una de las celdas de comandos debes pulsar *SHIFT+ENTER*.
-Y si por cualquier razón haces doble click en una celda de texto com esta, verás el texto sin formato. haciendo *SHIFT+ENTER* lo volverás a ver bien.
+Y si por cualquier razón haces doble click en una celda de texto como esta, verás el texto sin formato. Haciendo *SHIFT+ENTER* lo volverás a ver bien.
 
 
 Leamos por ejemplo el conjunto de datos que nos indica la cantidad de **luz de la luna** que llega a los telescopios:
@@ -95,7 +95,7 @@ Ahora podemos comparar cuanta luz nos llega de la luna y cuanta nos llega de los
 - **¿De cuál nos llega más intensidad? ¿De la Luna o de los Gammas?**
 - **¿Sabes ver qué parte de la luz deja pasar el filtro y qué parte la absorbe?**
 
-La luz que nos llega de los gamma aumenta muy rápido con la longitude de onda entre 250 y 350 nanómetros, pero después, al contrario de la que nos llega de la luna, disminuye para longitudes de onda mayores. Por esos escogimos un filtro que tuviera una buena transmisión por debajo de 350 nanómetros y que no dejara pasar luz por encima de 400 nanómetros.
+La luz que nos llega de los gamma aumenta muy rápido con la longitude de onda entre 250 y 350 nanómetros, pero después, al contrario de la que nos llega de la luna, disminuye para longitudes de onda mayores. Por eso escogimos un filtro que tuviera una buena transmisión por debajo de 350 nanómetros y que no dejara pasar luz por encima de 400 nanómetros.
 
 ----------
 
