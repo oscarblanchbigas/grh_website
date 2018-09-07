@@ -40,7 +40,7 @@ pl.show()
 ```
 
 
-![png](night_4_3_es_files/night_4_3_es_2_0.png)
+![png](night_4_3_files/night_4_3_2_0.png)
 
 
 ¡¡¡Cierto!!! Como Mrk 421 estava en flare no perdimos el tiempo tomando OFF data, tomamos tanto ON como pudimos. Nunca se sabe cuanto va a durar un flare. Así que estuvimos básicamente 3 horas seguidas tomando datos ON de Mrk 421. Y claro, ahora los eventos ** ON ** y ** OFF ** no me coinciden.
@@ -79,7 +79,7 @@ pl.show()
 ```
 
 
-![png](night_4_3_es_files/night_4_3_es_6_0.png)
+![png](night_4_3_files/night_4_3_6_0.png)
 
 
 ¡¡¡Wow!!! Pues si, estaba en flare. Tengo más rayos gammas en 3 horas (concretamente 10000 segundos) de los que nunca tendrán Daniel, Alba y Quim.
@@ -197,7 +197,7 @@ pl.show()
 ```
 
 
-![png](night_4_3_es_files/night_4_3_es_10_0.png)
+![png](night_4_3_files/night_4_3_10_0.png)
 
 
 ¡Genial! La cantidad de rayos gamma cambia y lo hace muy rápido. Cuando tenemos la suerte de observar un flare así, podemos sacar mucha información. Tanto de la fuente en si y de los procesos que ocurren en ella, como de qué les pasa a los rayos gamma mientras viajan desde la fuente hasta la tierra. ¡A mi lo que más me interesa es esta segunda parte!

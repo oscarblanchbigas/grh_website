@@ -133,7 +133,7 @@ pl.show()
 ```
 
 
-![png](night_3_4_es_files/night_3_4_es_13_0.png)
+![png](night_3_4_files/night_3_4_13_0.png)
 
 
 Ahora veamos qué porcentaje de estas observaciones simuladas nos darían más excesos de los que vemos en los datos (18477-18338 = 139). Para eso usamos las veces que un exceso se produce y que he guardado en **veces** y **excesos** usando el gráfico que acabo de generar. ¿Te acuerdas como se hace esto? Con "veces, excesos, _ = pl.hist(exceso, bins=100, histtype='stepfilled',alpha=0.2, normed=False)" guardo los valores del eje Y del gráfico en ** veces ** y los del eje X en ** excesos **.
@@ -182,7 +182,7 @@ for x in range(0,100):
 
 
 
-![png](night_3_4_es_files/night_3_4_es_17_1.png)
+![png](night_3_4_files/night_3_4_17_1.png)
 
 
 ** N0 ** está relacionado con la cantidad de materia oscura que hay en el clúster de Perseus. Así que mis datos no me dicen que no haya materia oscura allí, solo que hay menos que una cierta cantidad ... la esperanza no está perdida.

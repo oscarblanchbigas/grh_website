@@ -21,7 +21,7 @@ grafica("Significancias")
 ```
 
 
-![png](night_2_5_es_files/night_2_5_es_3_0.png)
+![png](night_2_5_files/night_2_5_3_0.png)
 
 
 La parte negativa de la distribución es para los casos en que hay más eventos en las observaciones OFF que en las ON, lo cual no tiene mucho sentido físico. Simplemente pasa por lo que llamamos fluctuaciones estadísticas. La parte positiva de la distribución en este caso también son fluctuacions estadísiticas por construcción. Pero en observaciones reales como la que estamos analizando de Cyg-X1 no se puede distinguir entre una fluctuación estadística o señal de verdad.
@@ -57,7 +57,7 @@ for x in range(0,100):
 
 
 
-![png](night_2_5_es_files/night_2_5_es_5_1.png)
+![png](night_2_5_files/night_2_5_5_1.png)
 
 
 Estamos de acuerdo, una probabilidad del 0.22% es bastante pequeña. Pero no lo suficiente. Los científicos nos queremos asegurar que lo que estamos viendo es cierto. Para estar seguros que no son fluctuaciones estadísticas el campo científico normalmente requiere que la ** Significancia ** sea de ** 5 sigmas **. Eso es una probabilidad de 0.000025 %

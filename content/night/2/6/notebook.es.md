@@ -110,7 +110,7 @@ CalcularSignificancia(Non, Noff)
 ```
 
 
-![png](night_2_6_es_files/night_2_6_es_6_0.png)
+![png](night_2_6_files/night_2_6_6_0.png)
 
 
 
@@ -155,7 +155,7 @@ CalcularSignificancia(Non, Noff)
 ```
 
 
-![png](night_2_6_es_files/night_2_6_es_8_0.png)
+![png](night_2_6_files/night_2_6_8_0.png)
 
 
 
@@ -184,7 +184,7 @@ MejorCorte()
 ```
 
 
-![png](night_2_6_es_files/night_2_6_es_10_0.png)
+![png](night_2_6_files/night_2_6_10_0.png)
 
 
 El primer gráfico es la superposición de todos los ** Theta Plot ** para diferentes valores del corte en hadronness, no es muy relevante. El segundo, muestra como cambia la Significancia para diferentes valores del corte.
@@ -208,7 +208,7 @@ CalcularSignificancia(Non, Noff)
 ```
 
 
-![png](night_2_6_es_files/night_2_6_es_12_0.png)
+![png](night_2_6_files/night_2_6_12_0.png)
 
 
 
