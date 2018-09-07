@@ -2,6 +2,7 @@
 title = "Night 1 Page 6"
 description = ""
 weight = 6
+type= "night"
 +++
 
 {{< header_night title="What do we do with the Gamma Rays?" >}}

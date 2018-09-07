@@ -2,6 +2,7 @@
 title = "Night 1 Page 6"
 description = ""
 weight = 6
+type= "night"
 +++
 
 {{< header_night title="Què fem amb els Raigs Gamma?" >}}
@@ -21,7 +22,7 @@ Ara que hem detectat els raigs gamma de CasA potser et preguntes què podem fer 
 {{< quote
     text="Col·leccionar raigs gamma no és el nostre objectiu. Els caçadors cacem per aprendre més coses de l'Univers més violent." >}}
 
-Allà fora hi ha acceleradors còsmics on les partícules viatgen a velocitats enormes i desprenen una llum molt energètica. Allà fora hi ha estrelles que exploten desprenent gran quantitat d'energia i també forats negres que s'empassen estrelles. 
+Allà fora hi ha acceleradors còsmics on les partícules viatgen a velocitats enormes i desprenen una llum molt energètica. Allà fora hi ha estrelles que exploten desprenent gran quantitat d'energia i també forats negres que s'empassen estrelles.
 
 Els raigs gamma ens ajuden a estudiar tots aquests fenòmens.
 
