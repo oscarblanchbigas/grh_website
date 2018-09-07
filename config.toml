@@ -26,7 +26,7 @@ weight = 1
 [[languages.en.menu.main]]
 identifier = "home"
 name = "home"
-url = "/"
+url = "/en"
 weight = 1
 [languages.es]
 title = "Cazadores de Rayos Gamma"
@@ -34,7 +34,7 @@ weight = 2
 [[languages.es.menu.main]]
 identifier = "inicio"
 name = "inicio"
-url = "/"
+url = "/es"
 weight = 1
 [languages.ca]
 title = "Caçadors de Raigs Gamma"
@@ -42,5 +42,5 @@ weight = 3
 [[languages.ca.menu.main]]
 identifier = "inici"
 name = "inici"
-url = "/"
+url = "/ca"
 weight = 1
