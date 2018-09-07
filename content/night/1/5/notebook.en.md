@@ -21,7 +21,7 @@ histograma("casa","off")
 ```
 
 
-![png](night_1_5.es_files/night_1_5.es_2_0.png)
+![png](night_1_5_files/night_1_5_2_0.png)
 
 
 Look carefully, again, at the axes, the scales and then the data. What happens near the value **0.00**? Is there more or less difference between the ON and OFF bars? And in the rest of theta2 values?
@@ -110,11 +110,11 @@ skymap("off")
 ```
 
 
-![png](night_1_5.es_files/night_1_5.es_6_0.png)
+![png](night_1_5_files/night_1_5_6_0.png)
 
 
 
-![png](night_1_5.es_files/night_1_5.es_6_1.png)
+![png](night_1_5_files/night_1_5_6_1.png)
 
 
 Try to compare the two skymaps, CasA and OFF.
@@ -130,7 +130,7 @@ skymap("casa","off")
 ```
 
 
-![png](night_1_5.es_files/night_1_5.es_8_0.png)
+![png](night_1_5_files/night_1_5_8_0.png)
 
 There it is, the red dot in the center ... yes, it's not as pretty as the radio images, but these
 rays are much more energetic ... this is the **Extreme Universe**.

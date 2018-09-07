@@ -21,7 +21,7 @@ histograma("casa","off")
 ```
 
 
-![png](night_1_5.es_files/night_1_5.es_2_0.png)
+![png](night_1_5_files/night_1_5_2_0.png)
 
 
 Fixa't bé, de nou, en els eixos, les escales i després les dades. Què passa prop del valor **0.00**? Hi ha més o menys diferència entre les barres del ON i l'OFF? ¿I a la resta de valors de theta2?
@@ -110,11 +110,11 @@ skymap("off")
 ```
 
 
-![png](night_1_5.es_files/night_1_5.es_6_0.png)
+![png](_files/night_1_5_6_0.png)
 
 
 
-![png](night_1_5.es_files/night_1_5.es_6_1.png)
+![png](night_1_5_files/night_1_5_6_1.png)
 
 
 Tracta de comparar els dos skymaps, el de CasA i el de l'OFF.
@@ -130,7 +130,7 @@ skymap("casa","off")
 ```
 
 
-![png](night_1_5.es_files/night_1_5.es_8_0.png)
+![png](night_1_5_files/night_1_5_8_0.png)
 
 Aquí està, el punt vermell al centre ... sí, no és tan bonica com les imatges de ràdio, però aquests
 raigs són molt més energètics ... això és el **Univers Extrem**.
