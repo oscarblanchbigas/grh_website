@@ -69,7 +69,7 @@ pl.show()
 ```
 
 
-![png](night_3_3_es_files/night_3_3_es_7_0.png)
+![png](night_3_3_files/night_3_3_7_0.png)
 
 
 Se parece al de Alba y Daniel, ¿no? Pero en realidad no es igual. ¿Has visto la diferencia? El mío está partido en más trocitos. Yo tengo 40 y ellos sólo tienen 30. Lo he hecho con el "bin=40" en la instrucción:
@@ -89,7 +89,7 @@ pl.show()
 ```
 
 
-![png](night_3_3_es_files/night_3_3_es_9_0.png)
+![png](night_3_3_files/night_3_3_9_0.png)
 
 
 ¿Cuál os gusta más?
