@@ -30,7 +30,7 @@ Al segundo lo llamamos ON: pensamos que de ahí vienen rayos gamma pero no estam
 
 El truco final es restar: ON-OFF, señal menos ruido.
 
-{{< img name="histogram.png" caption="Azul para el ruido, rojo para la posible señal. No olvides deshacerte de toda la luz que no proviene de rayos gamma, lo que nosotros llamamos el night sky background, o no sabrás realmente lo que estás viendo." >}}
+{{< img name="histogram.png" caption="Azul para el ruido, rojo para la posible señal. No olvides deshacerte de toda la luz que no proviene de rayos gamma, o no sabrás realmente lo que estás viendo." >}}
 
 Cuando llevo ya 3 horas observando a CasA me pongo a analizar los datos que nos llegan. Y eso significa que me pongo a usar código para seleccionar y sumar eventos que sabemos que son rayos gamma que han detectado nuestros telescopios. Y, claro, restarle el ruido de fondo que hemos detectado en un lugar cercano a CasA.
 

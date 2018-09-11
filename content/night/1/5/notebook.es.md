@@ -21,7 +21,7 @@ histograma("casa","off")
 ```
 
 
-![png](night_1_5.es_files/night_1_5.es_2_0.png)
+![png](night_1_5_files/night_1_5_2_0.png)
 
 
 Fíjate bien, de nuevo, en los ejes, las escalas y luego los datos. ¿Qué pasa cerca del valor **0.00**? ¿Hay más o menos diferencia entre las barras del ON y del OFF? ¿Y en el resto de valores de theta2?
@@ -110,11 +110,11 @@ skymap("off")
 ```
 
 
-![png](night_1_5.es_files/night_1_5.es_6_0.png)
+![png](night_1_5_files/night_1_5_6_0.png)
 
 
 
-![png](night_1_5.es_files/night_1_5.es_6_1.png)
+![png](night_1_5_files/night_1_5_6_1.png)
 
 
 Trata de comparar los dos skymaps, el de CasA y el del OFF.
@@ -131,7 +131,7 @@ skymap("casa","off")
 ```
 
 
-![png](night_1_5.es_files/night_1_5.es_8_0.png)
+![png](night_1_5_files/night_1_5_8_0.png)
 
 
 Ahí está, el punto rojo en el centro ... sí, no es tan bonita como las imagenes de radio, pero estos

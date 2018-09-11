@@ -112,7 +112,7 @@ pl.show()
 ```
 
 
-![png](night_2_4_es_files/night_2_4_es_8_0.png)
+![png](night_2_4_files/night_2_4_8_0.png)
 
 
 Aquí no hay nada ... pero es que Daniel os ha hecho trampas no solo con el código, sino también con el análisis.
@@ -128,7 +128,7 @@ Non, Noff = histograma_hadronness(0.20)
 ```
 
 
-![png](night_2_4_es_files/night_2_4_es_10_0.png)
+![png](night_2_4_files/night_2_4_10_0.png)
 
 
 Ahora soy yo quien hace trampas y no os enseño como me quedo solo con eventos con hadronness pequeño, :D.

@@ -158,7 +158,7 @@ pl.show()
 ```
 
 
-![png](night_4_5_es_files/night_4_5_es_7_0.png)
+![png](night_4_5_files/night_4_5_7_0.png)
 
 
 
@@ -187,7 +187,7 @@ pl.show()
 ```
 
 
-![png](night_4_5_es_files/night_4_5_es_8_0.png)
+![png](night_4_5_files/night_4_5_8_0.png)
 
 
 A simple vista vemos que llegan más Gammas de baja energía que de alta energía. Y eso es lo que esperamos.
@@ -222,7 +222,7 @@ pl.show()
 ```
 
 
-![png](night_4_5_es_files/night_4_5_es_10_0.png)
+![png](night_4_5_files/night_4_5_10_0.png)
 
 
 Este flare esta lleno de cosas interesantes, parece claro que la cantidad de ** rayos gamma ** de Alta Energía (Rojo) aumentan después que lo hagan los de Baja Energía (Azul). ¿Quiere decir esto que Einstein estaba equivocado...?

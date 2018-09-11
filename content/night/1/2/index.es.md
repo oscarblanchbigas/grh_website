@@ -9,7 +9,7 @@ notebook = "GRH_night_1_1_es.ipynb"
 
 {{< header_night title="¿Cómo deshacerse de la Luna?">}}
 
-Los filtros para las cámara de fotos los puedes comprar en muchas tiendas. Pero los de los telescopios MAGIC no los encuentras ni en internet porque no existen en el mercado. Así que no nos queda otro remedio que ir al taller y diseñarlos nosotros mismos.
+Los filtros para las cámaras de fotos los puedes comprar en muchas tiendas. Pero los de los telescopios MAGIC no los encuentras ni en internet porque no existen en el mercado. Así que no nos queda otro remedio que ir al taller y diseñarlos nosotros mismos.
 
 Una vez los tenemos hay que probarlos para ver si realmente funcionan. ¿Cómo podemos saber si se deshacen sólo de la Luna y no también de los rayos gamma que queremos cazar? Recordad que, de las imágenes que tomamos, sólo queremos sacar la luz lunar.
 
