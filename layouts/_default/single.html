@@ -10,7 +10,15 @@
 
 {{ define "main" }}
   <div class="side2 central">
-    <h1>Patata</h1>
+    <div class="header">
+      <div class="row">
+        <div class="col-2"></div>
+        <div class="col-2"><img src={{"/img/logo_es.png"  | relURL}}  class="img-responsive center-block" width="300"></div>
+        <div class="col-2" >
+          <p style="text-align: right;"><a href="/es">ES</a> | <a href="/en">EN</a> | <a href="/ca">CA</a></p>
+        </div>
+      </div>
+    </div>
     {{ .Content }}
   </div>
 {{ end }}
