@@ -13,7 +13,7 @@ disqus = "generic"
   {{< hexagonbutton src="/img/avatarhex_leyre.png" link="night/4/1" tooltip= "La Leyre caça rajos Gamma per posar a prova la teoria de la Relativitat. ¿La llum sempre viatja a la velocitat de la llum?">}}
 {{< /banner >}}
 {{< banner color="blue" step="3" title="T'atreveixes a resoldre el misteri? Aquesta és la teva nit de recerca">}}
-  {{< hexagonbutton src="/img/isotip_ray.png" link="yournight" tooltip= "Aquesta és la teva nit. La teva oportunitat. Amb el que t'han ensenyat el Daniel, l'Alba, el Quim i la Leyre tens de sobres per resoldre el misteri. Si no, pregunta'ns. Els caçadors sempre ens ajudem">}}
+  {{< hexagonbutton src="/img/isotip_ray.png" link="yournight/2019" tooltip= "Aquesta és la teva nit. La teva oportunitat. Amb el que t'han ensenyat el Daniel, l'Alba, el Quim i la Leyre tens de sobres per resoldre el misteri. Si no, pregunta'ns. Els caçadors sempre ens ajudem">}}
 {{< /banner >}}
 {{< banner color="red" step="4" title="Explica'ns quins resultats has aconseguit i participa en el sorteig." >}}
   {{< hexagonbutton src="/img/isotip_ray.png" link="participate" tooltip= "L'important no és el resultat sinó aprendre i gaudir amb la teva nit. Així que no dubtis a enviar-nos la teva experiència per entrar en el sorteig d'un viatge a La Palma. Entra per veure els detalls de com participar-hi.">}}

@@ -13,7 +13,7 @@ disqus = "generic"
   {{< hexagonbutton src="/img/avatarhex_leyre.png" link="night/4/1" tooltip= "Leyre caza rayos Gamma para poner a prueba la teoría de la Relatividad. ¿La luz siempre viaja a la velocidad de la luz?">}}
 {{< /banner >}}
 {{< banner color="blue" step="3" title="¿Te atreves a resolver el misterio? Esta es tu noche de investigación">}}
-  {{< hexagonbutton src="/img/isotip_ray.png" link="yournight" tooltip= "Esta es tu noche. Tu oportunidad. Con lo que te han enseñado Daniel, Alba, Quim y Leyre tienes de sobra para resolver el misterio. Si no, pregúntanos. Los cazadores siempre nos ayudamos">}}
+  {{< hexagonbutton src="/img/isotip_ray.png" link="yournight/2019" tooltip= "Esta es tu noche. Tu oportunidad. Con lo que te han enseñado Daniel, Alba, Quim y Leyre tienes de sobra para resolver el misterio. Si no, pregúntanos. Los cazadores siempre nos ayudamos">}}
 {{< /banner >}}
 {{< banner color="red" step="4" title="Cuéntanos qué resultados has conseguido y participa en el sorteo." >}}
   {{< hexagonbutton src="/img/isotip_ray.png" link="participate" tooltip= "Lo importante no es el resultado sinó aprender y disfrutar con tu noche. Así que no dudes en enviarnos tu experiencia para entrar en el sorteo de un viaje a La Palma. Entra para ver los detalles de como participar.">}}
