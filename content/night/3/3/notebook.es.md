@@ -32,7 +32,7 @@ len(perseus_ON)
 4 millones y medio de filas!! Eso ningún Excel lo puede abrir. Por suerte Python sí.
 Y por qué cada vez cargamos más datos? Porque cada vez lo complicamos un poco.
 
-Alba os explicó como hacer el corte en hadronness. Pero ella ya tenía los datos un poco preparados. Se había quedado con sólo los que tienen un ** Theta Cuadrado ** menor que 0.4. No es mi caso, así que para tener un ** Thetaplot ** como el de Alba o Daniel necesito hacer también un corte en ** Theta Cuadrado ** además del de hadronness.
+Alba os explicó como hacer el corte en hadronness. Pero ella ya tenía los datos un poco preparados. Se había quedado con sólo los que tienen un **Theta Cuadrado** menor que 0.4. No es mi caso, así que para tener un **Thetaplot** como el de Alba o Daniel necesito hacer también un corte en **Theta Cuadrado** además del de hadronness.
 
 
 ```python
@@ -56,7 +56,7 @@ len(perseus_ON_cut)
 
 
 Veis? Tras los cortes nos quedamos con unos trescientos mil eventos.
-Y sólo me queda hacer el ** Thetaplot **
+Y sólo me queda hacer el **Thetaplot**
 
 
 ```python
@@ -96,7 +96,7 @@ pl.show()
 
 ---------
 
-Ahora sólo nos falta ver cómo de significativo es los que vemos. A simple vista ya parece que no lo es, pero calculemos la ** siginificancia **.
+Ahora sólo nos falta ver cómo de significativo es los que vemos. A simple vista ya parece que no lo es, pero calculemos la **siginificancia**.
 
 Alba se queja de Daniel, pero ella también hace alguna trampilla ... para calcular la **significancia** usa una función sin explicar qué instrucciones contiene. ¡Vamos a resolverlo!
 
@@ -107,7 +107,7 @@ De hecho el cálculo de la significancia es muy simple:
 donde sqrt(...) indica la raiz cuadrada de lo que hay dentro del paréntesis y que en Python se puede poner como:
 > (N_on+N_off)**(0.5)
 
-Para tener N_on y N_off simplemente sumo los sucesos que tengo en las dos primeras divisiones del gráfico anterior y que me he guardado en las variables ** Non ** y **Noff** para depués hacer la operación aritmética.
+Para tener N_on y N_off simplemente sumo los sucesos que tengo en las dos primeras divisiones del gráfico anterior y que me he guardado en las variables **Non** y **Noff** para depués hacer la operación aritmética.
 
 
 
@@ -125,4 +125,4 @@ print ("Significancia =", Significancia)
     ('Significancia =', 0.45240605872906037)
 
 
-Lo que decía ** 0.45 sigmas ** o lo que es lo mismo, no vemos rayos gamma que nos lleguen de la materia oscura que hay en Perseus. Pero, ¿quiere decir esto que no hay? Lo veremos pronto y por esos también me he apuntado el número de Eventos ON y OFF.
+Lo que decía **0.45 sigmas** o lo que es lo mismo, no vemos rayos gamma que nos lleguen de la materia oscura que hay en Perseus. Pero, ¿quiere decir esto que no hay? Lo veremos pronto y por esos también me he apuntado el número de Eventos ON y OFF.

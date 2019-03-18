@@ -34,9 +34,10 @@ Primero se define la función en sí: como se llama y que parámetros le pasamos
 
 > def NumeroRayosGamma( No, r ):
 
-I después definimos que hace la función. Como os comentaba, el número de rayos gamma que nos llegan del clúster de Perseus depende de qué parte dentro del clúster miramos. De hecho, el valor es constante si miramos a menos de 0.1 grados del centro, pero se reduce rápidamente (con el radio a la cuarta potencia) si miramos más lejos. Para tener en cuenta las dos opciones hemos utilizado la condición ** if **:
+I después definimos que hace la función. Como os comentaba, el número de rayos gamma que nos llegan del clúster de Perseus depende de qué parte dentro del clúster miramos. De hecho, el valor es constante si miramos a menos de 0.1 grados del centro, pero se reduce rápidamente (con el radio a la cuarta potencia) si miramos más lejos. Para tener en cuenta las dos opciones hemos utilizado la condición **if**:
 
 > if r <= 0.1 :
+
 > if r > 0.1 :
 
 Y dentro de cada condición calculamos cuántos rayos gamma vemos mirando desde el centro del clúster hasta el valor de radio (r) y la normalización (No) que pasamos a la función.
@@ -65,12 +66,12 @@ NumeroRayosGamma( 1000, 0.2 )
 
 
 
-De hecho, antes vimos que si cuento eventos en las dos primeras divisiones de mi ** Thetaplot **, tengo:
+De hecho, antes vimos que si cuento eventos en las dos primeras divisiones de mi **Thetaplot**, tengo:
 
 > Eventos ON = 18477.0
 > Eventos OFF = 18338.0
 
-Como tengo 40 divisiones en ** Theta Cuadrado ** entre 0 y 0.40, eso quire decir que las dos primeras divisiones cubren 0.02 grados cuadrados en theta cuadrado, que se traduce en raiz cuadrada de 0.02 (0.1414) grados. Por tanto para una normalización de 1000 esperamos que nos lleguen
+Como tengo 40 divisiones en **Theta Cuadrado** entre 0 y 0.40, eso quiere decir que las dos primeras divisiones cubren 0.02 grados cuadrados en theta cuadrado, que se traduce en raiz cuadrada de 0.02 (0.1414) grados. Por tanto para una normalización de 1000 esperamos que nos lleguen
 
 
 ```python
@@ -80,7 +81,7 @@ print (NumeroRayosGamma( 1000, 0.1414 ), "rayos gamma")
     47.1191445659 rayos gamma
 
 
-Ahora tenemos que hacer algo parecido a lo que hizo Alba para entender qué quiere decir la ** Significancia **. ¿Os acordáis?
+Ahora tenemos que hacer algo parecido a lo que hizo Alba para entender qué quiere decir la **Significancia** ¿Os acordáis?
 
 Tenemos que como valor medio hay 18338 eventos de ruido y que de media nos llegan 47.1 eventos. Pero eso son los valores medios. Si observamos una sola vez por las más de 100 horas que lo hemos hecho los valores pueden ser diferentes. Como pasaba con las observaciones que simulaba Alba asumiendo que no había señal. Solo que ahora asumiremos que la señal es de media 47.1 rayos gamma.
 
@@ -136,7 +137,7 @@ pl.show()
 ![png](night_3_4_files/night_3_4_13_0.png)
 
 
-Ahora veamos qué porcentaje de estas observaciones simuladas nos darían más excesos de los que vemos en los datos (18477-18338 = 139). Para eso usamos las veces que un exceso se produce y que he guardado en **veces** y **excesos** usando el gráfico que acabo de generar. ¿Te acuerdas como se hace esto? Con "veces, excesos, _ = pl.hist(exceso, bins=100, histtype='stepfilled',alpha=0.2, normed=False)" guardo los valores del eje Y del gráfico en ** veces ** y los del eje X en ** excesos **.
+Ahora veamos qué porcentaje de estas observaciones simuladas nos darían más excesos de los que vemos en los datos (18477-18338 = 139). Para eso usamos las veces que un exceso se produce y que he guardado en **veces** y **excesos** usando el gráfico que acabo de generar. ¿Te acuerdas como se hace esto? Con "veces, excesos, _ = pl.hist(exceso, bins=100, histtype='stepfilled',alpha=0.2, normed=False)" guardo los valores del eje Y del gráfico en **veces** y los del eje X en **excesos**.
 
 Ahora puedo hacer un bucle dando valores a x entre 0 y 100 ( "for x in range(0,100):" ) y comprobar cuándo tenemos más que los que hemos observado en nuestra observación real. Es básicamente lo mismo que hizo Alba para ver la probabilidad de tener 2.7 sigmas.
 
@@ -157,7 +158,7 @@ Cuando no tenemos señal en nuestras observaciones, lo que hacemos es poner un l
 
 ------
 
-Ahora es cuando me va muy bien usar la variable ** test ** y tener definida la función ** NumeroRayosGamma( No, r ) **. Hace más fácil buscar para que valor de N0 se cumple la condición.
+Ahora es cuando me va muy bien usar la variable **test** y tener definida la función **NumeroRayosGamma( No, r )**. Hace más fácil buscar para que valor de N0 se cumple la condición.
 
 
 ```python
