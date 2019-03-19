@@ -16,5 +16,5 @@ disqus = "generic"
   {{< hexagonbutton src="/img/isotip_ray.png" link="yournight/2019" tooltip= "This is your night. Your opportunity. With what Daniel, Alba, Quim and Leyre have taught you, you have plenty to solve the mystery. If not, ask us. Hunters always help each other">}}
 {{< /banner >}}
 {{< banner color="red" step="4" title="Tell us what results you have achieved and participate in the draw." >}}
-  {{< hexagonbutton src="/img/isotip_ray.png" link="participate" tooltip= "The important thing is not the result but to learn and enjoy your night. So do not hesitate to send us your experience to join the draw for a trip to La Palma. Enter to see the details of how to participate.">}}
+  {{< hexagonbutton src="/img/isotip_star.png" link="participate" tooltip= "The important thing is not the result but to learn and enjoy your night. So do not hesitate to send us your experience to join the draw for a trip to La Palma. Enter to see the details of how to participate.">}}
 {{< /banner >}}

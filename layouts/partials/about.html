@@ -6,15 +6,20 @@
     </div>
     <hr>
     <div class="container">
-  
+
       {{ range where .Site.RegularPages "Section" "about" }}
       <div class="row" id="#">
         <div class="col-sm-3">
+          {{ if .Title }}
           <h3 class="{{.Params.color}}" >{{.Title}}</h3>
+          {{ end }}
         </div>
         <div class="col-sm-8">
+          {{ if .Description }}
           <h4>{{.Description}}</h4>
+
           <hr>
+          {{ end }}
           <p>{{.Content}}</p>
           {{ $extra := .Resources.GetMatch "extra.md"}}
           {{ if $extra }}
