@@ -9,24 +9,24 @@ import scipy.ndimage as ndimage
       warnings.warn('Matplotlib is building the font cache using fc-list. This may take a moment.')
 
 
-# El mapa del cielo a veces trae sorpresas
+# El mapa del cel de vegades porta sorpreses
 
-Ya que tenemos los datos y aunque no veamos nada en el centro del Clúster de Perseus, miremos cómo se ve el cielo extremo (el de los rayos gamma) alrededor de Perseus... lo podemos hacer con los mismos datos que usamos para hacer el ** theta plot **, igual que hizo Daniel para Cas A.
+Ja que tenim les dades i encara que no vegem res al centre del Clúster de Perseus, mirem com es veu el cel extrem (el dels raigs gamma) al voltant de Perseus ... ho podem fer amb les mateixes dades que fem servir per fer el **theta plot**, igual que va fer el Daniel per Cas A.
 
 
 ```python
-# Leemos los ficheros y les damos un nombre
+# Llegim els fitxers i els donem un nom
 perseus_ON= pd.read_csv('data/EvtList_ON_Perseus_All.txt', sep=' ')
 perseus_OFF= pd.read_csv('data/EvtList_OFF_Perseus_All.txt', sep=' ')
 
-# Definimos la variables de corte
+# Definim les variables de tall
 had_cut = 0.20
 
-# Seleccionamos los datos:
+# Seleccionem les dades:
 perseus_ON_cut = perseus_ON[perseus_ON['had'] < had_cut]
 perseus_OFF_cut = perseus_OFF[perseus_OFF['had'] < had_cut]
 
-# Miramos qué pinta tienen los datos que hemos cargado y seleccionado
+# Mirem quina pinta tenen les dades que hem carregat i seleccionat
 perseus_ON_cut.head(5)
 ```
 
@@ -86,33 +86,33 @@ perseus_ON_cut.head(5)
 
 
 
-Fíjate que ahora tenemos dos columnas nuevas: **XCam** y **YCam**. Éstas nos indican para cada evento la dirección de donde creemos que viene. Cada posición en la cámara indica una posición en el cielo.
+Fixa't que ara tenim dues columnes noves: **XCam** i **YCam**. Aquestes ens indiquen per a cada esdeveniment l'adreça d'on creiem que ve. Cada posició a la càmera indica una posició al cel.
 
 ------
 
-Veámos en detalle como lo hacía Daniel en su función **skymap**.
+Vegem en detall com ho feia el Daniel en la seva funció **skymap**.
 
-En comparación con el **thetaplot** aquí queremos representar los datos en 2 dimensiones: posiciones X y Y. Para eso tenemos que usar la función **np.histogra2d** en lugar de **pl.hist**. Funciona de forma muy similar. Solo que necesitamos darle dos variables, por ejemplo **camX_perseus** y **camY_perseus**.
+En comparació amb el **thetaplot** aquí volem representar les dades en 2 dimensions: posicions X i Y. Per això hem de fer servir la funció **np.histogram2d** en lloc de **pl.hist**. Funciona de manera molt semblant. Només que necessitem donar-li dues variables, per exemple **camX_perseus** i **camY_perseus**.
 
-Además, la dirección de llegada de cada evento tiene un error. Esto implica que cada evento tiene probabilidad de venir no sólo de un punto concreto sino de una región del cielo. Para tener esto en cuenta ponemos contribución de cada evento a la dirección reconstruida y sus alrededores. Esto lo hacemos con las instrucciones para los datos OFF y ON:
+A més, la direcció d'arribada de cada esdeveniment té un error. Això implica que cada esdeveniment té probabilitat de venir no només d'un punt concret sinó d'una regió del cel. Per tenir això en compte posem contribució de cada esdeveniment a l'adreça reconstruïda i els seus voltants. Això ho fem per les dades OFF i ON:
 
 > img1 = ndimage.gaussian_filter(hist_off, sigma=(5, 2), order=0)
 
 > img2 = ndimage.gaussian_filter(hist_perseus, sigma=(5, 2), order=0)
 
-Ahora podemos calcular los excesos haciendo ON menos OFF:
+Ara podem calcular els excessos fent ON menys OFF:
 
 > hist_excess = np.subtract(img2, img1)
 
-Además, sabemos que la eficiencia para detectar eventos no es la misma en toda la cámara. Una forma simple para evaluar esta eficiencia es usar los datos OFF y simplemente dividir los excesos por el OFF que hay en cada punto de la cámara. Para eso hacemos:
+A més, sabem que l'eficiència per detectar esdeveniments no és la mateixa en tota la cambra. Una forma simple per avaluar aquesta eficiència és utilitzar les dades OFF i simplement dividir els excessos per l'OFF que hi ha a cada punt de la càmera. Per això fem:
 
 > hist_excess = np.divide(hist_excess, img1)
 
-Y sólo nos faltaría mostrar el gráfico 2D que queda después de haber hecho estas operaciones.
+I només ens faltaria mostrar el gràfic 2D que queda després d'haver fet aquestes operacions.
 
 
 ```python
-#Skymap de los datos seleccionados:
+# Skymap de les dades seleccionades:
 hist_perseus, xedge, yedge = np.histogram2d(perseus_ON_cut.XCam, perseus_ON_cut.YCam, bins=71)
 hist_off, xedge, yedge = np.histogram2d(perseus_OFF_cut.XCam, perseus_OFF_cut.YCam, bins=71)
 img1 = ndimage.gaussian_filter(hist_off, sigma=(5, 2), order=0)
@@ -129,22 +129,21 @@ pl.show()
 ![png](night_3_5_files/night_3_5_4_0.png)
 
 
-Eh! Ahí hay algo... Y de hecho no recuerdo haberlo visto antes. Miremos si está siempre o solo en los datos que tomamos ayer.
-
+Eh! Aquí hi ha alguna cosa ... I de fet no recordo haver-ho vist abans. Mirem si està sempre o només en les dades que prenem ahir.
 
 ```python
-# Leemos los ficheros y les damos un nombre:
+# Llegim els fitxers i els hi donem un nom:
 perseus_ON= pd.read_csv('data/EvtList_ON_Perseus_LastDay.txt', sep=' ')
 perseus_OFF= pd.read_csv('data/EvtList_OFF_Perseus_LastDay.txt', sep=' ')
 
-# Definimos la variables de corte:
+# Definim les variables de tall:
 had_cut = 0.20
 
-# Seleccionamos los datos:
+# Seleccionem les dades:
 perseus_ON_cut = perseus_ON[perseus_ON['had'] < had_cut]
 perseus_OFF_cut = perseus_OFF[perseus_OFF['had'] < had_cut]
 
-# Representamos el Skymap:
+# Representem el Skymap:
 hist_perseus, xedge, yedge = np.histogram2d(perseus_ON_cut.XCam, perseus_ON_cut.YCam, bins=71)
 hist_off, xedge, yedge = np.histogram2d(perseus_OFF_cut.XCam, perseus_OFF_cut.YCam, bins=71)
 img1 = ndimage.gaussian_filter(hist_off, sigma=(5, 2), order=0)
@@ -161,22 +160,22 @@ pl.show()
 ![png](night_3_5_files/night_3_5_6_0.png)
 
 
-Ayer se veía muy bien ... a ver en el resto de los datos ...
+Ahir es veia molt bé ... a veure a la resta de les dades ...
 
 
 ```python
-# Leemos los ficheros y les damos un nombre:
+# Llegim els fitxers i els hi donem un nom:
 perseus_ON= pd.read_csv('data/EvtList_ON_Perseus_Other.txt', sep=' ')
 perseus_OFF= pd.read_csv('data/EvtList_OFF_Perseus_Other.txt', sep=' ')
 
-# Definimos la variables de corte:
+# Definim les variables de tall:
 had_cut = 0.20
 
-# Seleccionamos los datos:
+# Seleccionem les dades:
 perseus_ON_cut = perseus_ON[perseus_ON['had'] < had_cut]
 perseus_OFF_cut = perseus_OFF[perseus_OFF['had'] < had_cut]
 
-# Representamos el Skymap:
+# Representem el Skymap:
 hist_perseus, xedge, yedge = np.histogram2d(perseus_ON_cut.XCam, perseus_ON_cut.YCam, bins=71)
 hist_off, xedge, yedge = np.histogram2d(perseus_OFF_cut.XCam, perseus_OFF_cut.YCam, bins=71)
 img1 = ndimage.gaussian_filter(hist_off, sigma=(5, 2), order=0)
@@ -193,4 +192,4 @@ pl.show()
 ![png](night_3_5_files/night_3_5_8_0.png)
 
 
-Y en el resto de los datos no hay nada ... esto es lo que llamamos un flare y parece ser muy intenso. Si quieres saber más sobre flares, pasa una noche con Leyre ... yo ahora mismo la aviso y le digo que he visto este.
+I a la resta de les dades no hi ha res ... això és el que anomenem un flare i sembla ser molt intens. Si vols saber més sobre flares, passa una nit amb la Leyre ... jo ara mateix la aviso i li dic que he vist aquest.
