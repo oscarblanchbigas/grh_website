@@ -6,7 +6,7 @@ weight = 8
 
 **Dirección**
 
-Òscar Blanch
+Oscar Blanch
 
 **Coordinación, Edición y Producción**
 
@@ -37,5 +37,5 @@ Armando Quispe
 
 Daniel Guberman,
 Alba Fernández,
-Leyre Nogués, 
+Leyre Nogués,
 Quim Palacio
