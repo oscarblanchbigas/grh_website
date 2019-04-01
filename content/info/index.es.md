@@ -42,6 +42,7 @@ description =""
             Aprende observándoles en acción.<br>
             - ¿Necesitas ayuda? Accede a la página de comentarios<br>
             - ¿Tienes dudas? Accede al 'Diccionario del Cazador'
+            <br><br>
             </p>
               <div class="row">
                 <div class="col-xs-1"> </div>
@@ -57,6 +58,7 @@ description =""
                         <span class="bottom"></span>
                         <span class="left"></span>
                       </div>
+                      <br><br>
                     </div>
                     <div class="col-xs-2">
                       <div id="PrevPage" class="call-to-action PrevPage">
@@ -73,6 +75,7 @@ description =""
                 </div>
                 <div class="col-xs-1"></div>
               </div>
+              <br><br>
           </div>
       </div>
     </div>
@@ -98,6 +101,7 @@ description =""
                 <div class="col-xs-4">
                   <div class="row">
                     <img src="/img/isotip_ray.png" class="img-responsive" width="100">
+                    <br><br>
                   </div>
                 </div>
                 <div class="col-xs-4"></div>
@@ -119,6 +123,7 @@ description =""
             <div class="col-xs-4"> </div>
             <div class="col-xs-4">
               <img src="/img/isotip_star.png" class="img-responsive" width="100">
+                <br><br>
             </div>
             </div>
             <div class="col-xs-4"></div>
@@ -132,6 +137,12 @@ description =""
 <br>
 <div class="container-fluid ">
 <div class="row">
+<div class="col-xs-6">
+  <img src="/img/magic1.png" class="img-responsive">
+</div>
+<div class="col-xs-6">
+  <img src="/img/magic2.jpg" class="img-responsive">
+</div>
   <div class="col-xs-6">
     <img src="/img/magic3.jpg" class="img-responsive">
   </div>

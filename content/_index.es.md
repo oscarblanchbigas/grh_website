@@ -20,14 +20,3 @@ disqus = "generic"
     <h2>Fecha límite:</h2>
     <h2>31/05/2019</h2>
 {{< /banner >}}
-<br>
-<div class="container ">
-<div class="row">
-  <div class="col-xs-6">
-    <img src="/img/magic1.png" class="img-responsive">
-  </div>
-  <div class="col-xs-6">
-    <img src="/img/magic2.jpg" class="img-responsive">
-  </div>
-</div>
-</div>

@@ -62,7 +62,7 @@ description =""
           <br>
           <strong>¿Quién entrará en el sorteo?</strong> Todo aquel que nos haya enviado sus resultados y no sea estudiante de física de rayos gamma ni trabaje en este área.<br>
           <br>
-          <strong>¿En qué consiste exactamente el premio?</strong> Se trata de un viaje para dos personas* al Observatorio del Roque de los Muchachos para pasar ahí una noche acompañando a uno de nuestros Cazadores y viendo de primera mano su trabajo.<br>
+          <strong>¿En qué consiste exactamente el premio?</strong> Se trata de un viaje para dos personas* al Observatorio del Roque de los Muchachos desde Barcelona para pasar ahí una noche acompañando a uno de nuestros Cazadores y viendo de primera mano su trabajo.<br>
           <br>
           *Si el ganador es menor de edad, el acompañante deberá ser un adulto.</p>
         </div>
