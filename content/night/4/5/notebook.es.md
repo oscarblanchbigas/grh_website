@@ -98,17 +98,17 @@ En los datos de mrk421 tenemos la columna **Tiempo** que indica el momento en qu
 
 La pregunta es, ¿cómo puedo saber cuanto tiempo ha tardado cada uno de los rayos gamma para viajar desde Mrk421 hasta la Tierra? La respuesta: no puedo. Solo sé cuándo llegan a la Tierra.
 
-Pero si tengo datos en los que la cantidad de rayos gamma cambia con el tiempo, puedo mirar si ese cambio sucede en el mismo momento independientemente de la _energía_ de los ** rayos gamma **.
+Pero si tengo datos en los que la cantidad de rayos gamma cambia con el tiempo, puedo mirar si ese cambio sucede en el mismo momento independientemente de la _energía_ de los **rayos gamma**.
 
-Los ** rayos gamma ** son fotones y cuando entran en la atmósfera terrestre interaccionan con sus moléculas y generan una casacada de partículas. Algunos fotones llegan a la Tierra con más energía que otros. Cuanta más energía tienen más "fuertemente" chocan con las moléculas de la atmósfera y se generan más partículas. Si hay más partículas, con MAGIC vemos más luz. Esto nos permite asignar a cada evento una energía. En los ficheros:
+Los **rayos gamma** son fotones y cuando entran en la atmósfera terrestre interaccionan con sus moléculas y generan una casacada de partículas. Algunos fotones llegan a la Tierra con más energía que otros. Cuanta más energía tienen más "fuertemente" chocan con las moléculas de la atmósfera y se generan más partículas. Si hay más partículas, con MAGIC vemos más luz. Esto nos permite asignar a cada evento una energía. En los ficheros:
 
 > **EvtList_ON_Mrk421.txt** y **EvtList_OFF.txt**
 
-No sólo tenemos el ** Hadronness **, el ** Theta Cuadrado ** y el ** Tiempo ** para cada evento, también tenemos su ** Energia ** en GeV. Y podemos seleccionar los Rayos gamma de mayor energía por un lado y los de menor energía por otro. Así los podemos analizar de forma independiente.
+No sólo tenemos el **Hadronness**, el **Theta Cuadrado** y el **Tiempo** para cada evento, también tenemos su **Energia** en GeV. Y podemos seleccionar los Rayos gamma de mayor energía por un lado y los de menor energía por otro. Así los podemos analizar de forma independiente.
 
-La mayoría (si no todas) de las teorías que predicen que la velocidad de la luz en el vacío no es siempre la misma, indican que esta velocidad depende de la energía de la luz, la energía de los ** rayos gamma **.
+La mayoría (si no todas) de las teorías que predicen que la velocidad de la luz en el vacío no es siempre la misma, indican que esta velocidad depende de la energía de la luz, la energía de los **rayos gamma**.
 
-Definamos dos intervalos de energía en nuestros datos: ** Bajas ** (Energía < 100 GeV) y ** Altas ** (Energía > 500 GeV). Para tener esto, hacemos lo mismo que hemos hecho para cortar en ** Theta Cuadrado ** o ** Hadronness **.
+Definamos dos intervalos de energía en nuestros datos: **Bajas** (Energía < 100 GeV) y **Altas** (Energía > 500 GeV). Para tener esto, hacemos lo mismo que hemos hecho para cortar en **Theta Cuadrado** o **Hadronness**.
 
 
 ```python
@@ -126,16 +126,17 @@ mrk421_ON_cut_lowE =mrk421_ON_cut[mrk421_ON_cut['Energia']<cut_lowE]
 mrk421_OFF_cut_lowE =mrk421_OFF_cut[mrk421_OFF_cut['Energia']<cut_lowE]
 ```
 
-Si asumimos que cuando se produce un ** flare**, la fuente aumenta en el mismo momento el número de fotones para todas las energías, podemos hacer un ** Light Curve ** para los dos rangos de energía y mirar si para los dos, la cantidad de ** rayos gamma ** que vemos crece en el mismo momento.
+Si asumimos que cuando se produce un **flare**, la fuente aumenta en el mismo momento el número de fotones para todas las energías, podemos hacer un 
+**Light Curve** para los dos rangos de energía y mirar si para los dos, la cantidad de **rayos gamma** que vemos crece en el mismo momento.
 
 ------
 
 Primero haremos el **LightCurve** para altas energías. Luego para bajas. Y luego los combinaremos.
-Ahora, en vez de usar 100 intervalos de timepo, usaremos 40.
+Ahora, en vez de usar 100 intervalos de tiempo, usaremos 40.
 
 
 ```python
-#LightCurve ALtas Energias
+#LightCurve Altas Energias
 
 weights_high = np.ones_like(mrk421_OFF_cut_highE.theta2)*factor
 
@@ -192,7 +193,7 @@ pl.show()
 
 A simple vista vemos que llegan más Gammas de baja energía que de alta energía. Y eso es lo que esperamos.
 
-Pero para ver si hay alguna diferencia de tiempo entre las dos ** Light Curve ** mejor poner las dos en el mismo gráfico. Y de paso, pondremos cada una con su eje del mismo color que los puntos. Veamos como hacerlo.
+Pero para ver si hay alguna diferencia de tiempo entre las dos **Light Curve** mejor poner las dos en el mismo gráfico. Y de paso, pondremos cada una con su eje del mismo color que los puntos. Veamos como hacerlo.
 
 
 ```python
@@ -225,11 +226,11 @@ pl.show()
 ![png](night_4_5_files/night_4_5_10_0.png)
 
 
-Este flare esta lleno de cosas interesantes, parece claro que la cantidad de ** rayos gamma ** de Alta Energía (Rojo) aumentan después que lo hagan los de Baja Energía (Azul). ¿Quiere decir esto que Einstein estaba equivocado...?
+Este flare esta lleno de cosas interesantes, parece claro que la cantidad de **rayos gamma** de Alta Energía (Rojo) aumentan después que lo hagan los de Baja Energía (Azul). ¿Quiere decir esto que Einstein estaba equivocado...?
 
 -----
 Nota:
-Por cierto, para poder comparar mejor las dos ** Light Curve ** he dibujado una linea para unir los puntos. Lo hago con la "-" que pongo en "fmt='-or'" y "fmt='-ob'".
+Por cierto, para poder comparar mejor las dos **Light Curve** he dibujado una linea para unir los puntos. Lo hago con la "-" que pongo en "fmt='-or'" y "fmt='-ob'".
 
 -----
 Ahora podemos visualizar los eventos detectados por la cámara como hicimos antes, pero separándolos por energía:
@@ -249,5 +250,5 @@ HTML("""
 
 
 <video width="600" height="600" controls="" autoplay="" loop="">
-  <source src="data/animation_HighLow.mp4" type="video/mp4">
+  <source src="night_4_5_files/animation_HighLow.mp4" type="video/mp4">
 </video>

@@ -1,0 +1,10 @@
+<section class="step {{ with .Get "color"}}{{.}}{{end}} center-block">
+<div class="container-fluid ">
+  <div class="row">
+      <h2 >{{ with .Get "text1"}}{{.}}{{end}}</h2>
+      <div class="container-fluid ">
+        <h3 style="text-align:left;color:black;line-height:1.5">{{.Inner}}</h3>
+      </div>
+  </div>
+</div>
+</section>

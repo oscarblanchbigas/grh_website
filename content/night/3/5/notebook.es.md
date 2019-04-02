@@ -6,7 +6,6 @@ import scipy.ndimage as ndimage
 %matplotlib inline
 ```
 
-    /Users/blanch/anaconda/lib/python2.7/site-packages/matplotlib/font_manager.py:273: UserWarning: Matplotlib is building the font cache using fc-list. This may take a moment.
       warnings.warn('Matplotlib is building the font cache using fc-list. This may take a moment.')
 
 
@@ -87,13 +86,13 @@ perseus_ON_cut.head(5)
 
 
 
-Fíjate que ahora tenemos dos columnas nuevas: ** XCam ** y ** YCam **. Éstas nos indican para cada evento la dirección de donde creemos que viene. Cada posición en la cámara indica una posición en el cielo.
+Fíjate que ahora tenemos dos columnas nuevas: **XCam** y **YCam**. Éstas nos indican para cada evento la dirección de donde creemos que viene. Cada posición en la cámara indica una posición en el cielo.
 
 ------
 
-Veámos en detalle como lo hacía Daniel en su función ** skymap **.
+Veámos en detalle como lo hacía Daniel en su función **skymap**.
 
-En comparación con el ** thetaplot ** aquí queremos representar los datos en 2 dimensiones: posiciones X y Y. Para eso tenemos que usar la función ** np.histogram2d ** en lugar de ** pl.hist **. Funciona de forma muy similar. Solo que necesitamos darle dos variables, por ejemplo ** camX_perseus ** y ** camY_perseus **.
+En comparación con el **thetaplot** aquí queremos representar los datos en 2 dimensiones: posiciones X y Y. Para eso tenemos que usar la función **np.histogra2d** en lugar de **pl.hist**. Funciona de forma muy similar. Solo que necesitamos darle dos variables, por ejemplo **camX_perseus** y **camY_perseus**.
 
 Además, la dirección de llegada de cada evento tiene un error. Esto implica que cada evento tiene probabilidad de venir no sólo de un punto concreto sino de una región del cielo. Para tener esto en cuenta ponemos contribución de cada evento a la dirección reconstruida y sus alrededores. Esto lo hacemos con las instrucciones para los datos OFF y ON:
 
@@ -127,7 +126,7 @@ pl.show()
 ```
 
 
-![png](night_3_5_es_files/night_3_5_es_4_0.png)
+![png](night_3_5_files/night_3_5_4_0.png)
 
 
 Eh! Ahí hay algo... Y de hecho no recuerdo haberlo visto antes. Miremos si está siempre o solo en los datos que tomamos ayer.
@@ -159,7 +158,7 @@ pl.show()
 ```
 
 
-![png](night_3_5_es_files/night_3_5_es_6_0.png)
+![png](night_3_5_files/night_3_5_6_0.png)
 
 
 Ayer se veía muy bien ... a ver en el resto de los datos ...
@@ -191,7 +190,7 @@ pl.show()
 ```
 
 
-![png](night_3_5_es_files/night_3_5_es_8_0.png)
+![png](night_3_5_files/night_3_5_8_0.png)
 
 
 Y en el resto de los datos no hay nada ... esto es lo que llamamos un flare y parece ser muy intenso. Si quieres saber más sobre flares, pasa una noche con Leyre ... yo ahora mismo la aviso y le digo que he visto este.

@@ -1,5 +1,5 @@
 +++
-title = "En Terreno Desconocido"
+title = "In an Unknown Place"
 description = ""
 colors = ["yellow", "green"]
 hunter = "quim"

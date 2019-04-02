@@ -37,5 +37,5 @@ Armando Quispe
 
 Daniel Guberman,
 Alba Fernández,
-Leyre Nogués, 
+Leyre Nogués,
 Quim Palacio
