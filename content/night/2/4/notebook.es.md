@@ -14,7 +14,7 @@ Cuando Daniel hace **leer("luna")**, lo que hace en realidad es:
 
 Y con esto crea una variable **luna** que tiene toda información que hay en el fichero "EmisionLuna.txt".
 
-![luna](screen_datos.png "luna")
+![luna](night_2_4_files/screen_datos.png "luna")
 
 Hay 3 columnas y varias filas, Aquí solo vemos las 5 primeras.
 Si queremos usar los datos de la **longitud de onda**, los encontramos aquí:

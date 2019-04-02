@@ -5,8 +5,11 @@ color = "yellow"
 weight = 7
 +++
 
+Nos encontrarás en: 
+
 Cazadores de Rayos Gamma
-info@cazadoresderayosgamma.com
+
+[info@cazadoresderayosgamma.com](mailto:info@cazadoresderayosgamma.com)
+
 Institut de Física d'Altes Energies (IFAE)
 
-Nos encontrarás en:
