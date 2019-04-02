@@ -2,7 +2,7 @@
    <div class="col-md-3 col-xs-4">
       <img src="/grh/img/people/blanch.png" class="image-responsive" width="100">
      <br><br>
-     <p class="tagline">Òscar Blanch</p>
+     <p class="tagline">Oscar Blanch</p>
      <p class="description">Investigador IFAE</p>
      <br>
    </div>

@@ -1,39 +1,35 @@
 +++
-title = "Créditos"
+title = "Crèdits"
 color = "red"
 weight = 8
 +++
 
-**Dirección**
+**Direcció**
 
 Oscar Blanch
 
-**Coordinación, Edición y Producción**
+**Coordinació, Edició i Producció**
 
 Sebastián Grinschpun, Alícia Labián
 
-**Desarrollo Web**
+**Desenvolupament web**
 
 Sebastián Grinschpun,
 Javier López
 
-
-**Diseño Original**
+**Disseny Original**
 
 Maria del Villar
-
 
 **Música Original**
 
 Óscar Martínez
 
-
-**Edición de Vídeo**
+**Edició de Vídeo**
 
 Armando Quispe
 
-
-**Actores**
+**Actors**
 
 Daniel Guberman,
 Alba Fernández,

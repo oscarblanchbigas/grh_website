@@ -1,11 +1,11 @@
 +++
-title = "¿Quieres hablar con nosotros?"
-description = "Tenemos ganas de conocerte y que nos des tu opinión"
+title = "Do you want to talk with us?"
+description = "We would like to meet you and know your opinion"
 color = "yellow"
 weight = 7
 +++
 
-Nos encontrarás en: 
+You will find us in:
 
 Cazadores de Rayos Gamma
 
