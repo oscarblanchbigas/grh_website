@@ -1,5 +1,5 @@
 +++
-title = "The Gamma-Ray speed"
+title = "La velocitat dels raigs Gamma"
 description = ""
 colors = ["red", "blue"]
 hunter = "leyre"
