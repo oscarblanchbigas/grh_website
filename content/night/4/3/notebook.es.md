@@ -1,12 +1,12 @@
 # La libreta científica de Leyre
 
-Seguro que después de pasar una noche con Daniel, Alba y Quim, ya eres un experto en esto de analizar datos y de programar con python. Y seguramente mucho de lo que hay en mi libreta ya lo sabes hacer sin ayuda. ¡Pero espero poder enseñarte aún alguna cosa nueva!
+Seguro que después de pasar una noche con Daniel, Alba y Quim, ya eres un experta en esto de analizar datos y de programar con python. Y seguramente mucho de lo que hay en mi libreta ya lo sabes hacer sin ayuda. ¡Pero espero poder enseñarte aún alguna cosa nueva!
 
 ---------
 
 Para empezar, veamos si hay rayos gamma en los datos que tomamos. La gente de VERITAS estaba muy emocionada. Pero no sería la primera vez que la emoción se transforma en decepción.
 
-El ** Thetaplot ** ya lo tienes controlado, ¿no?
+El **Thetaplot** ya lo tienes controlado, ¿no?
 
 
 ```python
@@ -43,9 +43,9 @@ pl.show()
 ![png](night_4_3_files/night_4_3_2_0.png)
 
 
-¡¡¡Cierto!!! Como Mrk 421 estava en flare no perdimos el tiempo tomando OFF data, tomamos tanto ON como pudimos. Nunca se sabe cuanto va a durar un flare. Así que estuvimos básicamente 3 horas seguidas tomando datos ON de Mrk 421. Y claro, ahora los eventos ** ON ** y ** OFF ** no me coinciden.
+¡¡¡Cierto!!! Como Mrk 421 estava en flare no perdimos el tiempo tomando OFF data, tomamos tanto ON como pudimos. Nunca se sabe cuanto va a durar un flare. Así que estuvimos básicamente 3 horas seguidas tomando datos ON de Mrk 421. Y claro, ahora los eventos **ON** y **OFF** no me coinciden.
 
-Bueno, esto tiene una solución fácil. Lo que realmente me interesa es saber cuál es el ** OFF ** en la zona donde hay señal: valores de ** Theta Cuadrado ** pequeños. Así que puedo buscar por qué factor tengo que multiplicar el ** OFF ** para que me coincida con el ** ON ** a valores de ** Theta Cuadrado ** grandes (entre 0.25 y 0.35, por ejemplo). Este factor lo uso para escalara todo el ** OFF ** y ya tengo una buena estimación de cuantos eventos de ** ON ** no son rayos gamma que vengan de Mrk 421.
+Bueno, esto tiene una solución fácil. Lo que realmente me interesa es saber cuál es el **OFF** en la zona donde hay señal: valores de ** Theta Cuadrado ** pequeños. Así que puedo buscar por qué factor tengo que multiplicar el ** OFF ** para que me coincida con el **ON** a valores de **Theta Cuadrado** grandes (entre 0.25 y 0.35, por ejemplo). Este factor lo uso para escalara todo el ** OFF ** y ya tengo una buena estimación de cuantos eventos de **ON** no son rayos gamma que vengan de Mrk 421.
 
 
 
@@ -59,7 +59,7 @@ print ("Necesitamos escalar el OFF por un factor: ", factor)
     ('Necesitamos escalar el OFF por un factor: ', 4.7118271695349687)
 
 
-Ya tengo el factor de escala, ¿entiendes cómo lo he hecho? Ahora veamos como lo aplico a todos los eventos de las observaciones ** OFF **.
+Ya tengo el factor de escala, ¿entiendes cómo lo he hecho? Ahora veamos como lo aplico a todos los eventos de las observaciones **OFF**.
 
 La forma más fácil de hacerlo es con pesos ... 'weights' en inglés, que es el idioma básico que usa Python.
 
@@ -88,7 +88,7 @@ pl.show()
 
 Y de hecho, con tantos  rayos gamma podemos mirar si el número que nos llegan cambia con el tiempo. Porque, de hecho, en esto consisten los flares: el número de rayos gamma que nos llegan de un sitio aumenta por un cierto tiempo.
 
-Para eso, lo primero que necesito es leer el tiempo de llegada de cada evento ** ON **. Usaré siempre el mismo ** OFF **, que no cambia con el tiempo.
+Para eso, lo primero que necesito es leer el tiempo de llegada de cada evento **ON**. Usaré siempre el mismo **OFF**, que no cambia con el tiempo.
 
 Nuestros datos incorporan una columna nueva llamada **Tiempo** que nos indica el momento en que el telescopio detecta los rayos gamma.
 
@@ -159,7 +159,7 @@ Y para usar la columna **Tiempo**, tanto en el ON como en el OFF sabes que solo 
 ----------
 Ahora quiero ver cómo los rayos gamma nos llegan a medida que pasan los segundos. Recordad que esto es un flare, una explosión, así que esperamos que el número de Gammas cambie con el tiempo rápidamente. Pero lo mejor es verlo con nuestros ojos.
 
-Esta gráfica que buscamos se llama **Lightcurve**(curva de luz) y nos muestra el número de excesos (** ON - OFF **) que tengo en cada intervalo de tiempo.
+Esta gráfica que buscamos se llama **Lightcurve**(curva de luz) y nos muestra el número de excesos (**ON - OFF**) que tengo en cada intervalo de tiempo.
 
 Así es como se pueden hacer los cálculos y la gráfica.
 
@@ -204,7 +204,7 @@ pl.show()
 
 -------
 Nota:
-A diferencia del ** Thetaplot ** , en el paso 4 no quiero representar cuantas veces sucede algo en mis datos. Quiero mostrar una variable (Número de Excesos) en función de otra (Tiempo), con sus errores. Para eso no puedo usar "pl.hist". Por eso uso otra función que hace exactamente lo que necesito:
+A diferencia del **Thetaplot** , en el paso 4 no quiero representar cuantas veces sucede algo en mis datos. Quiero mostrar una variable (Número de Excesos) en función de otra (Tiempo), con sus errores. Para eso no puedo usar "pl.hist". Por eso uso otra función que hace exactamente lo que necesito:
 
 > pl.errorbar(VariableEjeX, VariableEjeY)
 
@@ -215,7 +215,7 @@ Además se le pueden dar parámetros adicionales para definir:
 > Formato de los puntos: fmt ='or', o para tener un círculo en cada punto y r para que sea rojo
 > Color para representar los errores: ecolor = 'red'
 
-Así representamos el número de excesos en función del tiempo, esto es lo que llamamos ** Light Curve ** (curva de luz).
+Así representamos el número de excesos en función del tiempo, esto es lo que llamamos **Light Curve** (curva de luz).
 
 --------
 
