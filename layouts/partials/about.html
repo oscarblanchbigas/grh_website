@@ -21,7 +21,7 @@
           <hr>
           {{ end }}
           <p>{{.Content}}</p>
-          {{ $extra := .Resources.GetMatch "extra.md"}}
+          {{ $extra := .Resources.GetMatch (printf "extra.%s.md" .Lang)}}
           {{ if $extra }}
             {{ $extra.Content }}
           {{ end }}

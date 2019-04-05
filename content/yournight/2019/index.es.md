@@ -1,5 +1,5 @@
 +++
-title = "Your Night 2018"
+title = "Your Night 2019"
 description = ""
 weight = 1
 type= "night"
@@ -7,7 +7,7 @@ right = "notebook"
 notebook = "GRH_yournight_2018_es.ipynb"
 +++
 {{< title
-    title="El reto de 2018"
+    title="El reto de 2019"
     subtitle="Una vuelta cada 50 años" >}}
 
 {{< intro
