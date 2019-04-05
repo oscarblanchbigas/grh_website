@@ -9,11 +9,11 @@ description =""
     <section class="step green">
     <div class="container-fluid ">
       <div class="row">
-          <h2 >¿Preparado para entrar en el Universo más extremo?</h2>
+          <h2 >Ready to enter the most extreme Universe?</h2>
           <div class="container-fluid ">
-            <p style="text-align:left;color:black;line-height:1.5">  Lee primero estas instrucciones básicas. <br>
-              Daniel, Alba, Quim y Leyre te acompañarán en esta experiencia<br>
-              Tómate el tiempo que necesites para recorrer cada paso que te proponemos.<br></p>
+            <p style="text-align:left;color:black;line-height:1.5">  Read these basic instructions first.<br>
+              Daniel, Alba, Quim and Leyre will accompany you in this experience <br>
+              Take the time you need to go through each step we propose. <br> </p>
               <div class="row">
                 <div class="col-xs-1"> </div>
                 <div class="col-xs-10">
@@ -35,13 +35,13 @@ description =""
     <section class="step yellow">
     <div class="container-fluid ">
       <div class="row">
-          <h2 >1. Aprende de los Cazadores</h2>
+          <h2 >1. Learn from Hunters </h2>
           <div class="container-fluid ">
-            <p style="text-align:left;color:black;line-height:1.5">  Acompaña a los cuatro Cazadores durante sus noches de observación.<br>
-            Empápate de su experiencia.<br>
-            Aprende observándoles en acción.<br>
-            - ¿Necesitas ayuda? Accede a la página de comentarios<br>
-            - ¿Tienes dudas? Accede al 'Diccionario del Cazador'
+            <p style="text-align:left;color:black;line-height:1.5">  Join the four Hunters during their nights of observation. <br>
+            Be immersed in their experience.<br>
+            Learn by observing them in action. <br>
+            - Need help? Access the comments page <br>
+            - You have doubts? Access the 'Hunter Dictionary'
             <br><br>
             </p>
               <div class="row">
@@ -90,12 +90,12 @@ description =""
     <section class="step blue">
     <div class="container-fluid ">
       <div class="row">
-          <h2 >2. Empieza tu Investigación</h2>
+          <h2 >2. Start your Research </h2>
           <div class="container-fluid ">
-            <p style="text-align:left;color:black;line-height:1.5">Resuelve tu noche de observación con todo lo que has aprendido.<br>
-            Usa tu propia libreta científica<br>
-            Analiza datos reales obtenidos con los telescopios MAGIC.<br>
-            Haz tus propias hipótesis y comprúebalas</p>
+            <p style="text-align:left;color:black;line-height:1.5">Solve your observation night with everything you've learned.<br>
+            Use your own scientific notebook <br>
+            Analyze real data obtained with MAGIC telescopes.<br>
+            Make your own hypothesis and check them </p>
               <div class="row">
                 <div class="col-xs-4"> </div>
                 <div class="col-xs-4">
@@ -115,10 +115,10 @@ description =""
   <section class="step red">
   <div class="container-fluid ">
     <div class="row">
-        <h2> 3. Comparte tu descubrimiento</h2>
+        <h2> 3. Share your discovery </h2>
         <div class="container-fluid ">
-          <p style="text-align:left;color:black;line-height:1.5">  ¿Quieres ganar un viaje a La Palma? Mándanos lo que has descubierto durante tu noche de observación.Cuéntanos cuál ha sido tu experiencia en Cazadores.
-          Busca la manera más original posible.Participa  en el concurso para ganar una noche en el Observatorio del Roque de los Muchachos en la isla de La Palma.</p>
+          <p style="text-align:left;color:black;line-height:1.5">Do you want to win a trip to La Palma? Send us what you discovered during your observation night. Tell us about your experience in Hunters. 
+         Find the most original way possible. Take part in the contest to win one night at the Roque de los Muchachos Observatory on the island of La Palma.</p>
           <div class="row">
             <div class="col-xs-4"> </div>
             <div class="col-xs-4">
